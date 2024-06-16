@@ -1,0 +1,71 @@
+{
+  "sourceLanguage" : "ru",
+  "strings" : {
+    "agreementText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нажимая кнопку продолжить я соглашаюсь с\nПолитикой Конфиденциальности и Условиями Использования"
+          }
+        }
+      }
+    },
+    "dismissTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
+          }
+        }
+      }
+    },
+    "onboardingTitle" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Общайтесь с друзьями  и близкими легко"
+          }
+        }
+      }
+    },
+    "privacyPolicy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Политикой Конфиденциальности"
+          }
+        }
+      }
+    },
+    "startChatTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать общаться"
+          }
+        }
+      }
+    },
+    "termsOfUse" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Условиями Использования"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
