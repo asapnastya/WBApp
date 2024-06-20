@@ -21,6 +21,6 @@ struct UniversalButton: View {
                 .frame(height: 52)
         }
         .background(Color(.purpleButton))
-        .cornerRadius(30) 
+        .cornerRadius(30)
     }
 }

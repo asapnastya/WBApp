@@ -1,5 +1,5 @@
 //
-//  ContactDetailView.swift
+//  ContactDetailsView.swift
 //  WBApp
 //
 //  Created by Анастасия Романова on 6/17/24.
@@ -7,16 +7,17 @@
 
 import SwiftUI
 
-struct ContactDetailView: View {
+struct ContactDetailsView: View {
+    
+    @Environment(\.presentationMode) private var presentationMode
     
     let contact: ContactView_Model
     
-    @Environment(\.presentationMode) var presentationMode
-    
     var body: some View {
+        
         VStack {
-            
-            if let profileImage = contact.profileImage {
+            switch contact.profileImage {
+            case .some(let profileImage):
                 Image(profileImage)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
@@ -25,8 +26,9 @@ struct ContactDetailView: View {
                     .padding(.top, 48)
                     .padding(.horizontal, 87)
                     .padding(.bottom, 7)
-            } else {
-                Text(getInitials(from: contact.name))
+                
+            case .none:
+                Text(String.getInitials(from: contact.name))
                     .initialsTitle2()
                     .frame(width: 200, height: 200)
                     .background(Color.purpleBackground)
@@ -44,22 +46,22 @@ struct ContactDetailView: View {
                 .padding(.bottom, 35)
             
             HStack(spacing: 12) {
-                SocialNetworkButton(coverImage: .imgTwitter, action: {})
-                SocialNetworkButton(coverImage: .imgInsta, action: {})
-                SocialNetworkButton(coverImage: .imgLinkedin, action: {})
-                SocialNetworkButton(coverImage: .imgFacebook, action: {})
+                SocialNetworkButton(coverImage: .icTwitter, action: {})
+                SocialNetworkButton(coverImage: .icInsta, action: {})
+                SocialNetworkButton(coverImage: .icLinkedin, action: {})
+                SocialNetworkButton(coverImage: .icFacebook, action: {})
             }
+            
             Spacer()
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(true)
         .background(Color.background)
         .toolbar {
-            
             ToolbarItem(placement: .navigationBarLeading) {
                 Button(action: { self.presentationMode.wrappedValue.dismiss() }) {
                     HStack {
-                        Image(.imgBackButton)
+                        Image(.icBackButton)
                             .frame(width: 24, height: 24)
                         Text(.contactsTitle)
                             .navBarTitle1()
@@ -71,6 +73,7 @@ struct ContactDetailView: View {
     }
 }
 
+// MARK: - SocialNetworkButton
 struct SocialNetworkButton: View {
     
     var coverImage: ImageResource
@@ -80,16 +83,24 @@ struct SocialNetworkButton: View {
         Button(action: action) {
             Image(coverImage)
                 .resizable()
+                .frame(width: 20, height: 20)
                 .scaledToFit()
-                .frame(width: 17.43, height: 14.16)
         }
-        .frame(width: 71.67, height: 40)
+        .frame(width: 71, height: 40)
         .clipShape(RoundedRectangle(cornerRadius: 25))
         .overlay(Capsule().stroke(Color.purpleButton, lineWidth: 1.67))
     }
 }
 
+// MARK: - Preview
 #Preview {
-    ContactDetailView(contact: ContactView_Model(name: "Иван Иванов", status: "Last seen yesterday", profileImage: nil, isOnline: false, hasStory: false, phoneNumber: "+7 999 999-99-99"))
+    ContactDetailsView(
+        contact: ContactView_Model(
+            name: "Иван Иванов",
+            status: "Last seen yesterday",
+            profileImage: nil,
+            isOnline: false,
+            hasStory: false,
+            phoneNumber: "+7 999 999-99-99")
+    )
 }
-

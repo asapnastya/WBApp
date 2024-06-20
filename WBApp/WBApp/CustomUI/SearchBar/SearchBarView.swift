@@ -8,18 +8,21 @@
 import SwiftUI
 
 struct SearchBarView: View {
-    @Binding var searchText: String
     
+    @Binding var searchText: String
     
     var body: some View {
         HStack {
-            Image(.imgSearch)
+            Image(.icSearch)
                 .padding(.leading, 8)
             
-            TextField(.searchBarTitle, text: $searchText)
-                .frame(height: 36)
-                .font(.custom("SFProDisplay-Semibold", size: 14))
-                .foregroundStyle(Color.grayMainText)
+            TextField("",
+                      text: $searchText,
+                      prompt: Text(.searchBarTitle)
+                .searchBarTitle()
+                .foregroundColor(Color.grayMainText)
+            )
+            .frame(height: 36)
         }
         .background(Color.searchBarBackground)
         .clipShape(RoundedRectangle(cornerRadius: 4))
@@ -27,6 +30,8 @@ struct SearchBarView: View {
         .padding(.top)
     }
 }
+
+// MARK: - Preview
 
 #Preview {
     ContactsView()

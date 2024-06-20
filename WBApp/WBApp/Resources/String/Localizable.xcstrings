@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "ru",
   "strings" : {
+    "" : {
+
+    },
     "⚙️" : {
 
     },
@@ -19,7 +22,6 @@
       }
     },
     "contactsTitle" : {
-      "extractionState" : "manual",
       "localizations" : {
         "ru" : {
           "stringUnit" : {

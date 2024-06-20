@@ -13,10 +13,12 @@ struct WBApp: App {
     @AppStorage("isOnboarding") var isOnboarding: Bool = true
     
     var body: some Scene {
+        
         WindowGroup {
             switch isOnboarding {
             case true:
                 OnboardingView()
+                
             case false:
                 CustomTabView()
             }

@@ -7,8 +7,9 @@
 
 import SwiftUI
 
-struct ContactView_Model { // название?
-    var id = UUID()
+struct ContactView_Model {
+    
+    let id = UUID()
     var name: String
     var status: String
     var profileImage: ImageResource?
@@ -18,7 +19,6 @@ struct ContactView_Model { // название?
 }
 
 extension ContactView_Model: Hashable, Identifiable {}
-
 
 let contacts: [ContactView_Model] = [
     .init(name: "Анастасия Иванова", status: "Last seen yesterday", profileImage: .imgAnastasiiaIvanova, isOnline: false, hasStory: false, phoneNumber: "+7 999 999-99-99"),

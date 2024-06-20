@@ -9,9 +9,9 @@ import SwiftUI
 
 struct TabButton: View {
     
-    var tab: Tabs
-    
     @Binding var selectedTab: Tabs
+    
+    var tab: Tabs
     
     var body: some View {
         Button(action: {
@@ -27,14 +27,24 @@ struct TabButton: View {
     private var tabImage: Image {
         switch tab {
         case .contacts:
-            return Image(selectedTab == .contacts ? "img_contacts_active" : "img_contacts_inactive")
+            return selectedTab == .contacts
+            ? Image(.icContactsActive)
+            : Image(.icContactsInactive)
+            
         case .chat:
-            return Image(selectedTab == .chat ? "img_chat_active" : "img_chat_inactive")
+            return selectedTab == .chat
+            ? Image(.icChatActive)
+            : Image(.icChatInactive)
+            
         case .settings:
-            return Image(selectedTab == .settings ? "img_settings_active" : "img_settings_inactive")
+            return selectedTab == .settings
+            ? Image(.icSettingsActive)
+            : Image(.icSettingsInactive)
         }
     }
 }
+
+// MARK: - Preview
 
 #Preview {
     CustomTabView()
