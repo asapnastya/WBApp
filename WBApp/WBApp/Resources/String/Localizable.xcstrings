@@ -1,6 +1,15 @@
 {
   "sourceLanguage" : "ru",
   "strings" : {
+    "" : {
+
+    },
+    "⚙️" : {
+
+    },
+    "💬" : {
+
+    },
     "agreementText" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -8,6 +17,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нажимая кнопку продолжить я соглашаюсь с\nПолитикой Конфиденциальности и Условиями Использования"
+          }
+        }
+      }
+    },
+    "contactsTitle" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контакты"
           }
         }
       }
@@ -40,6 +59,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Политикой Конфиденциальности"
+          }
+        }
+      }
+    },
+    "searchBarTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
           }
         }
       }

@@ -21,8 +21,7 @@ struct OnboardingView: View {
                 Image(.imgOnboarding)
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 262,
-                           height: 271)
+                    .frame(width: 262, height: 271)
                     .padding(.top, 91)
                     .padding(.bottom, 42)
                     .padding(.horizontal, 62)
@@ -50,15 +49,13 @@ struct OnboardingView: View {
                 .padding(.horizontal, 24)
                 .padding(.bottom, 20)
             }
-            
             .background(Color(.background))
-            .sheet(isPresented: $isSheetPresented) {
-                SecondView()
+            .fullScreenCover(isPresented: $isSheetPresented) {
+                CustomTabView()
             }
         }
     }
 }
-
 // MARK: - AttributedString
 private extension AttributedString {
     
@@ -80,6 +77,7 @@ private extension AttributedString {
     }
 }
 
+// MARK: - Preview
 #Preview {
     OnboardingView()
 }

@@ -14,12 +14,22 @@
 		DC2944852C1F0BB900D31860 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DC2944842C1F0BB900D31860 /* Localizable.xcstrings */; };
 		DC2944872C1F1B9F00D31860 /* Extensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2944862C1F1B9F00D31860 /* Extensions+String.swift */; };
 		DC2944892C1F1E7500D31860 /* Extensions+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2944882C1F1E7500D31860 /* Extensions+Text.swift */; };
+		DC449BDF2C21B2B100ACA837 /* ContactsView_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BDE2C21B2B100ACA837 /* ContactsView_Cell.swift */; };
+		DC449BE12C21B3FA00ACA837 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE02C21B3FA00ACA837 /* SearchBarView.swift */; };
+		DC449BE32C21B5D700ACA837 /* ContactView_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */; };
+		DC449BE52C21D94E00ACA837 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE42C21D94E00ACA837 /* ChatView.swift */; };
+		DC449BE72C21D95700ACA837 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE62C21D95700ACA837 /* SettingsView.swift */; };
+		DC449BE92C21DBF400ACA837 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE82C21DBF400ACA837 /* CustomTabView.swift */; };
 		DC66638F2C1B2E3500350A45 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC66638E2C1B2E3500350A45 /* Colors.xcassets */; };
 		DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD852C189316004F1C85 /* WBApp.swift */; };
 		DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD872C189316004F1C85 /* OnboardingView.swift */; };
 		DC8FDD8A2C189317004F1C85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDD892C189317004F1C85 /* Images.xcassets */; };
 		DC8FDD8D2C189317004F1C85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDD8C2C189317004F1C85 /* Preview Assets.xcassets */; };
-		DCA5F0E92C1F25A3001BE726 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5F0E82C1F25A3001BE726 /* SecondView.swift */; };
+		DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5F0E82C1F25A3001BE726 /* ContactsView.swift */; };
+		DCBC575A2C2432F0003265A0 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */; };
+		DCBC575C2C246A3A003265A0 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC575B2C246A3A003265A0 /* TabButton.swift */; };
+		DCBC575E2C246AEC003265A0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC575D2C246AEC003265A0 /* Router.swift */; };
+		DCDF787A2C209C88002C1205 /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF78792C209C88002C1205 /* ContactDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +40,12 @@
 		DC2944842C1F0BB900D31860 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		DC2944862C1F1B9F00D31860 /* Extensions+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+String.swift"; sourceTree = "<group>"; };
 		DC2944882C1F1E7500D31860 /* Extensions+Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Text.swift"; sourceTree = "<group>"; };
+		DC449BDE2C21B2B100ACA837 /* ContactsView_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView_Cell.swift; sourceTree = "<group>"; };
+		DC449BE02C21B3FA00ACA837 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView_Model.swift; sourceTree = "<group>"; };
+		DC449BE42C21D94E00ACA837 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		DC449BE62C21D95700ACA837 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DC449BE82C21DBF400ACA837 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		DC65168E2C1B230100D49726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC66638E2C1B2E3500350A45 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DC8FDD822C189316004F1C85 /* WBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,7 +53,11 @@
 		DC8FDD872C189316004F1C85 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DC8FDD892C189317004F1C85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DC8FDD8C2C189317004F1C85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DCA5F0E82C1F25A3001BE726 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		DCA5F0E82C1F25A3001BE726 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		DCBC575B2C246A3A003265A0 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		DCBC575D2C246AEC003265A0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DCDF78792C209C88002C1205 /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +77,27 @@
 				DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */,
 				DC2944602C1ED9B400D31860 /* SFProDisplay-Regular.otf */,
 				DC2944782C1EDFB100D31860 /* SFProDisplay-Semibold.otf */,
+				DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DC1C293A2C232833001507F4 /* UniversalButton */ = {
+			isa = PBXGroup;
+			children = (
+				DC05577B2C1A0A2900A5D77B /* UniversalButton.swift */,
+			);
+			path = UniversalButton;
+			sourceTree = "<group>";
+		};
+		DC1C293D2C23286B001507F4 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC57652C24CB07003265A0 /* SearchBar */,
+				DC1C293A2C232833001507F4 /* UniversalButton */,
+				DCBC57642C24CAB9003265A0 /* Tab */,
+			);
+			path = CustomUI;
 			sourceTree = "<group>";
 		};
 		DC29447E2C1EF14F00D31860 /* Colors */ = {
@@ -96,12 +135,12 @@
 		DC8FDD842C189316004F1C85 /* WBApp */ = {
 			isa = PBXGroup;
 			children = (
-				DCA5F0EA2C1F4A69001BE726 /* Resources */,
-				DCA5F0EB2C1F4B56001BE726 /* Extensions */,
 				DC8FDD852C189316004F1C85 /* WBApp.swift */,
-				DC8FDD872C189316004F1C85 /* OnboardingView.swift */,
-				DC05577B2C1A0A2900A5D77B /* UniversalButton.swift */,
-				DCA5F0E82C1F25A3001BE726 /* SecondView.swift */,
+				DCA5F0EA2C1F4A69001BE726 /* Resources */,
+				DCBC57612C24C9A6003265A0 /* Screens */,
+				DCA5F0EB2C1F4B56001BE726 /* Extensions */,
+				DC1C293D2C23286B001507F4 /* CustomUI */,
+				DCBC575F2C247AF3003265A0 /* Router */,
 				DC65168E2C1B230100D49726 /* Info.plist */,
 				DC8FDD8B2C189317004F1C85 /* Preview Content */,
 			);
@@ -119,10 +158,10 @@
 		DCA5F0EA2C1F4A69001BE726 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DCBC57662C24CCF2003265A0 /* String */,
 				DC29447E2C1EF14F00D31860 /* Colors */,
 				DC0E06942C1ED17C00345686 /* Fonts */,
 				DC29447F2C1EF15D00D31860 /* Images */,
-				DC2944842C1F0BB900D31860 /* Localizable.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -134,6 +173,101 @@
 				DC2944862C1F1B9F00D31860 /* Extensions+String.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DCBC575F2C247AF3003265A0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC575D2C246AEC003265A0 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		DCBC57612C24C9A6003265A0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC576F2C24CE76003265A0 /* ContactDetailsView */,
+				DCBC576E2C24CE6A003265A0 /* OnboardingView */,
+				DCBC576D2C24CE60003265A0 /* SettingsView */,
+				DCBC576C2C24CE4E003265A0 /* ChatView */,
+				DCBC57622C24CA24003265A0 /* Contacts */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DCBC57622C24CA24003265A0 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC57632C24CA40003265A0 /* Cell */,
+				DCA5F0E82C1F25A3001BE726 /* ContactsView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		DCBC57632C24CA40003265A0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */,
+				DC449BDE2C21B2B100ACA837 /* ContactsView_Cell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DCBC57642C24CAB9003265A0 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				DCBC575B2C246A3A003265A0 /* TabButton.swift */,
+				DC449BE82C21DBF400ACA837 /* CustomTabView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		DCBC57652C24CB07003265A0 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				DC449BE02C21B3FA00ACA837 /* SearchBarView.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		DCBC57662C24CCF2003265A0 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				DC2944842C1F0BB900D31860 /* Localizable.xcstrings */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		DCBC576C2C24CE4E003265A0 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				DC449BE42C21D94E00ACA837 /* ChatView.swift */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
+		DCBC576D2C24CE60003265A0 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				DC449BE62C21D95700ACA837 /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		DCBC576E2C24CE6A003265A0 /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				DC8FDD872C189316004F1C85 /* OnboardingView.swift */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		DCBC576F2C24CE76003265A0 /* ContactDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF78792C209C88002C1205 /* ContactDetailsView.swift */,
+			);
+			path = ContactDetailsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +335,7 @@
 				DC8FDD8A2C189317004F1C85 /* Images.xcassets in Resources */,
 				DC2944852C1F0BB900D31860 /* Localizable.xcstrings in Resources */,
 				DC2944722C1ED9B400D31860 /* SFProDisplay-Regular.otf in Resources */,
+				DCBC575A2C2432F0003265A0 /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,10 +348,19 @@
 			files = (
 				DC2944872C1F1B9F00D31860 /* Extensions+String.swift in Sources */,
 				DC2944892C1F1E7500D31860 /* Extensions+Text.swift in Sources */,
+				DC449BE92C21DBF400ACA837 /* CustomTabView.swift in Sources */,
+				DC449BDF2C21B2B100ACA837 /* ContactsView_Cell.swift in Sources */,
+				DCDF787A2C209C88002C1205 /* ContactDetailsView.swift in Sources */,
+				DC449BE52C21D94E00ACA837 /* ChatView.swift in Sources */,
 				DC05577C2C1A0A2900A5D77B /* UniversalButton.swift in Sources */,
-				DCA5F0E92C1F25A3001BE726 /* SecondView.swift in Sources */,
+				DCBC575E2C246AEC003265A0 /* Router.swift in Sources */,
+				DC449BE12C21B3FA00ACA837 /* SearchBarView.swift in Sources */,
+				DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */,
 				DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */,
+				DC449BE72C21D95700ACA837 /* SettingsView.swift in Sources */,
+				DC449BE32C21B5D700ACA837 /* ContactView_Model.swift in Sources */,
 				DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */,
+				DCBC575C2C246A3A003265A0 /* TabButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

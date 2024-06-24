@@ -10,9 +10,18 @@ import SwiftUI
 @main
 struct WBApp: App {
     
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
+    
     var body: some Scene {
+        
         WindowGroup {
-            OnboardingView()
+            switch isOnboarding {
+            case true:
+                OnboardingView()
+                
+            case false:
+                CustomTabView()
+            }
         }
     }
 }
