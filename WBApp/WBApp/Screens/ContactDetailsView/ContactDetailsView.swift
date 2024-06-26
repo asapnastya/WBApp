@@ -19,7 +19,7 @@ struct ContactDetailsView: View {
             switch contact.profileImage {
             case .some(let profileImage):
                 Image(profileImage)
-                    .resizable()
+                    .resizable()                 
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 200, height: 200)
                     .clipShape(RoundedRectangle(cornerRadius: 100))
@@ -96,6 +96,7 @@ struct SocialNetworkButton: View {
 #Preview {
     ContactDetailsView(
         contact: ContactView_Model(
+            id: 1, 
             name: "Иван Иванов",
             status: "Last seen yesterday",
             profileImage: nil,

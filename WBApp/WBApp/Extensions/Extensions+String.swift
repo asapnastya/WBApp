@@ -21,6 +21,10 @@ extension String {
         localized: LocalizationValue("agreementText")
     )
     
+    static let appGroupIdentifier = "group.wbapp.com"
+    
+    static let firstContactKey = "firstContact"
+    
     static func getInitials(from fullName: String) -> String {
         let components = fullName.split(separator: " ")
         

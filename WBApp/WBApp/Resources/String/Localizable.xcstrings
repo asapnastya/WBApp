@@ -42,6 +42,83 @@
         }
       }
     },
+    "intentChatTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чат"
+          }
+        }
+      }
+    },
+    "intentChooseScreenTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Какой экран открыть?"
+          }
+        }
+      }
+    },
+    "intentContactsTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контакты"
+          }
+        }
+      }
+    },
+    "intentDescriptionTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открывает выбранный экран WBApp"
+          }
+        }
+      }
+    },
+    "intentNameTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть экран WBApp"
+          }
+        }
+      }
+    },
+    "intentScreenTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экран"
+          }
+        }
+      }
+    },
+    "intentSettingsTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
+          }
+        }
+      }
+    },
     "onboardingTitle" : {
       "localizations" : {
         "ru" : {
@@ -85,6 +162,9 @@
         }
       }
     },
+    "Tabs" : {
+
+    },
     "termsOfUse" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -95,6 +175,27 @@
           }
         }
       }
+    },
+    "Какой экран открыть?" : {
+
+    },
+    "Контакты" : {
+
+    },
+    "Настройки" : {
+
+    },
+    "Открывает выбранный экран WBApp" : {
+
+    },
+    "Открыть экран WBApp" : {
+
+    },
+    "Чат" : {
+
+    },
+    "Экран" : {
+
     }
   },
   "version" : "1.0"

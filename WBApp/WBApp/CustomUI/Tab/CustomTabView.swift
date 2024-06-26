@@ -6,8 +6,15 @@
 //
 
 import SwiftUI
+import AppIntents
 
-enum Tabs {
+enum Tabs: String, AppEnum  {
+    static var typeDisplayRepresentation: TypeDisplayRepresentation = "Tabs"
+    static var caseDisplayRepresentations: [Tabs : DisplayRepresentation] =  [
+        .contacts: .init(stringLiteral: "Контакты"),
+        .chat: .init(stringLiteral: "Чат"),
+        .settings: .init(stringLiteral: "Настройки")
+    ]
     
     case contacts
     case chat
@@ -18,7 +25,7 @@ extension Tabs: Hashable {}
 
 struct CustomTabView: View {
     
-    @StateObject private var router: Router = .init()
+    @StateObject private var router: Router = Router.shared
     
     private let tabs: [Tabs] = [.contacts, .chat, .settings]
     

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC05577C2C1A0A2900A5D77B /* UniversalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05577B2C1A0A2900A5D77B /* UniversalButton.swift */; };
+		DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */; };
 		DC2944662C1ED9B400D31860 /* SFProDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */; };
 		DC2944722C1ED9B400D31860 /* SFProDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944602C1ED9B400D31860 /* SFProDisplay-Regular.otf */; };
 		DC2944792C1EDFB100D31860 /* SFProDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944782C1EDFB100D31860 /* SFProDisplay-Semibold.otf */; };
@@ -20,6 +21,10 @@
 		DC449BE52C21D94E00ACA837 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE42C21D94E00ACA837 /* ChatView.swift */; };
 		DC449BE72C21D95700ACA837 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE62C21D95700ACA837 /* SettingsView.swift */; };
 		DC449BE92C21DBF400ACA837 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE82C21DBF400ACA837 /* CustomTabView.swift */; };
+		DC46E7352C2C236700B8500B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DC46E7342C2C236600B8500B /* Localizable.xcstrings */; };
+		DC46E7372C2C257400B8500B /* ContactView_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */; };
+		DC46E73B2C2C279F00B8500B /* Extensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73A2C2C279F00B8500B /* Extensions+String.swift */; };
+		DC46E73D2C2C27AB00B8500B /* Extensions+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73C2C2C27AB00B8500B /* Extensions+Text.swift */; };
 		DC66638F2C1B2E3500350A45 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC66638E2C1B2E3500350A45 /* Colors.xcassets */; };
 		DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD852C189316004F1C85 /* WBApp.swift */; };
 		DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD872C189316004F1C85 /* OnboardingView.swift */; };
@@ -28,12 +33,46 @@
 		DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5F0E82C1F25A3001BE726 /* ContactsView.swift */; };
 		DCBC575A2C2432F0003265A0 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */; };
 		DCBC575C2C246A3A003265A0 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC575B2C246A3A003265A0 /* TabButton.swift */; };
-		DCBC575E2C246AEC003265A0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC575D2C246AEC003265A0 /* Router.swift */; };
+		DCDEF8552C2B42E7002E44B0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC575D2C246AEC003265A0 /* Router.swift */; };
 		DCDF787A2C209C88002C1205 /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF78792C209C88002C1205 /* ContactDetailsView.swift */; };
+		DCE270E42C2AE99C00FC0538 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE270E32C2AE99C00FC0538 /* WidgetKit.framework */; };
+		DCE270E62C2AE99C00FC0538 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE270E52C2AE99C00FC0538 /* SwiftUI.framework */; };
+		DCE270E92C2AE99C00FC0538 /* WBAppWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE270E82C2AE99C00FC0538 /* WBAppWidgetBundle.swift */; };
+		DCE270ED2C2AE99C00FC0538 /* WBAppWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE270EC2C2AE99C00FC0538 /* WBAppWidget.swift */; };
+		DCE270EF2C2AE99C00FC0538 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE270EE2C2AE99C00FC0538 /* AppIntent.swift */; };
+		DCE270F12C2AE99E00FC0538 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE270F02C2AE99E00FC0538 /* Images.xcassets */; };
+		DCE270F52C2AE99E00FC0538 /* WBAppWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DCE270E12C2AE99C00FC0538 /* WBAppWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCE270FA2C2AE9CB00FC0538 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE270E32C2AE99C00FC0538 /* WidgetKit.framework */; };
+		DCE270FD2C2AEC8700FC0538 /* WBAppWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE270FB2C2AEC2B00FC0538 /* WBAppWidgetEntryView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE270F32C2AE99E00FC0538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8FDD7A2C189316004F1C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE270E02C2AE99C00FC0538;
+			remoteInfo = WBAppWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCE270F92C2AE99E00FC0538 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DCE270F52C2AE99E00FC0538 /* WBAppWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DC05577B2C1A0A2900A5D77B /* UniversalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalButton.swift; sourceTree = "<group>"; };
+		DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenScreenIntent.swift; sourceTree = "<group>"; };
 		DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.otf"; sourceTree = "<group>"; };
 		DC2944602C1ED9B400D31860 /* SFProDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.otf"; sourceTree = "<group>"; };
 		DC2944782C1EDFB100D31860 /* SFProDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.otf"; sourceTree = "<group>"; };
@@ -46,6 +85,11 @@
 		DC449BE42C21D94E00ACA837 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		DC449BE62C21D95700ACA837 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DC449BE82C21DBF400ACA837 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		DC46E7342C2C236600B8500B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DC46E73A2C2C279F00B8500B /* Extensions+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+String.swift"; sourceTree = "<group>"; };
+		DC46E73C2C2C27AB00B8500B /* Extensions+Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+Text.swift"; sourceTree = "<group>"; };
+		DC46E73F2C2C322300B8500B /* WBApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WBApp.entitlements; sourceTree = "<group>"; };
+		DC46E7402C2C326800B8500B /* WBAppWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WBAppWidgetExtension.entitlements; sourceTree = "<group>"; };
 		DC65168E2C1B230100D49726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC66638E2C1B2E3500350A45 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DC8FDD822C189316004F1C85 /* WBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +102,15 @@
 		DCBC575B2C246A3A003265A0 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		DCBC575D2C246AEC003265A0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		DCDF78792C209C88002C1205 /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
+		DCE270E12C2AE99C00FC0538 /* WBAppWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WBAppWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE270E32C2AE99C00FC0538 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DCE270E52C2AE99C00FC0538 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DCE270E82C2AE99C00FC0538 /* WBAppWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBAppWidgetBundle.swift; sourceTree = "<group>"; };
+		DCE270EC2C2AE99C00FC0538 /* WBAppWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBAppWidget.swift; sourceTree = "<group>"; };
+		DCE270EE2C2AE99C00FC0538 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		DCE270F02C2AE99E00FC0538 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCE270F22C2AE99E00FC0538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE270FB2C2AEC2B00FC0538 /* WBAppWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBAppWidgetEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +118,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE270FA2C2AE9CB00FC0538 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE270DE2C2AE99C00FC0538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE270E62C2AE99C00FC0538 /* SwiftUI.framework in Frameworks */,
+				DCE270E42C2AE99C00FC0538 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +143,14 @@
 				DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DC1246172C29F3BB0039F7C7 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */,
+			);
+			path = Intents;
 			sourceTree = "<group>";
 		};
 		DC1C293A2C232833001507F4 /* UniversalButton */ = {
@@ -116,10 +187,47 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		DC46E73E2C2C27D100B8500B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC46E73C2C2C27AB00B8500B /* Extensions+Text.swift */,
+				DC46E73A2C2C279F00B8500B /* Extensions+String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC7A78662C2CA9B00042E0DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC7A78682C2CA9CF0042E0DC /* String */,
+				DC7A78672C2CA9C00042E0DC /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC7A78672C2CA9C00042E0DC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DCE270F02C2AE99E00FC0538 /* Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DC7A78682C2CA9CF0042E0DC /* String */ = {
+			isa = PBXGroup;
+			children = (
+				DC46E7342C2C236600B8500B /* Localizable.xcstrings */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		DC8FDD792C189316004F1C85 = {
 			isa = PBXGroup;
 			children = (
+				DC46E7402C2C326800B8500B /* WBAppWidgetExtension.entitlements */,
 				DC8FDD842C189316004F1C85 /* WBApp */,
+				DCE270E72C2AE99C00FC0538 /* WBAppWidget */,
+				DCE270E22C2AE99C00FC0538 /* Frameworks */,
 				DC8FDD832C189316004F1C85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				DC8FDD822C189316004F1C85 /* WBApp.app */,
+				DCE270E12C2AE99C00FC0538 /* WBAppWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,7 +244,9 @@
 		DC8FDD842C189316004F1C85 /* WBApp */ = {
 			isa = PBXGroup;
 			children = (
+				DC46E73F2C2C322300B8500B /* WBApp.entitlements */,
 				DC8FDD852C189316004F1C85 /* WBApp.swift */,
+				DC1246172C29F3BB0039F7C7 /* Intents */,
 				DCA5F0EA2C1F4A69001BE726 /* Resources */,
 				DCBC57612C24C9A6003265A0 /* Screens */,
 				DCA5F0EB2C1F4B56001BE726 /* Extensions */,
@@ -270,6 +381,29 @@
 			path = ContactDetailsView;
 			sourceTree = "<group>";
 		};
+		DCE270E22C2AE99C00FC0538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCE270E32C2AE99C00FC0538 /* WidgetKit.framework */,
+				DCE270E52C2AE99C00FC0538 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE270E72C2AE99C00FC0538 /* WBAppWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DCE270E82C2AE99C00FC0538 /* WBAppWidgetBundle.swift */,
+				DCE270EC2C2AE99C00FC0538 /* WBAppWidget.swift */,
+				DCE270EE2C2AE99C00FC0538 /* AppIntent.swift */,
+				DCE270FB2C2AEC2B00FC0538 /* WBAppWidgetEntryView.swift */,
+				DC46E73E2C2C27D100B8500B /* Extensions */,
+				DC7A78662C2CA9B00042E0DC /* Resources */,
+				DCE270F22C2AE99E00FC0538 /* Info.plist */,
+			);
+			path = WBAppWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -280,15 +414,34 @@
 				DC8FDD7E2C189316004F1C85 /* Sources */,
 				DC8FDD7F2C189316004F1C85 /* Frameworks */,
 				DC8FDD802C189316004F1C85 /* Resources */,
+				DCE270F92C2AE99E00FC0538 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DCE270F42C2AE99E00FC0538 /* PBXTargetDependency */,
 			);
 			name = WBApp;
 			productName = WBApp;
 			productReference = DC8FDD822C189316004F1C85 /* WBApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DCE270E02C2AE99C00FC0538 /* WBAppWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE270F62C2AE99E00FC0538 /* Build configuration list for PBXNativeTarget "WBAppWidgetExtension" */;
+			buildPhases = (
+				DCE270DD2C2AE99C00FC0538 /* Sources */,
+				DCE270DE2C2AE99C00FC0538 /* Frameworks */,
+				DCE270DF2C2AE99C00FC0538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBAppWidgetExtension;
+			productName = WBAppWidgetExtension;
+			productReference = DCE270E12C2AE99C00FC0538 /* WBAppWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -301,6 +454,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					DC8FDD812C189316004F1C85 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DCE270E02C2AE99C00FC0538 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -319,6 +475,7 @@
 			projectRoot = "";
 			targets = (
 				DC8FDD812C189316004F1C85 /* WBApp */,
+				DCE270E02C2AE99C00FC0538 /* WBAppWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -339,6 +496,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCE270DF2C2AE99C00FC0538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC46E7352C2C236700B8500B /* Localizable.xcstrings in Resources */,
+				DCE270F12C2AE99E00FC0538 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -353,7 +519,8 @@
 				DCDF787A2C209C88002C1205 /* ContactDetailsView.swift in Sources */,
 				DC449BE52C21D94E00ACA837 /* ChatView.swift in Sources */,
 				DC05577C2C1A0A2900A5D77B /* UniversalButton.swift in Sources */,
-				DCBC575E2C246AEC003265A0 /* Router.swift in Sources */,
+				DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */,
+				DCDEF8552C2B42E7002E44B0 /* Router.swift in Sources */,
 				DC449BE12C21B3FA00ACA837 /* SearchBarView.swift in Sources */,
 				DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */,
 				DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */,
@@ -364,7 +531,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCE270DD2C2AE99C00FC0538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC46E7372C2C257400B8500B /* ContactView_Model.swift in Sources */,
+				DCE270FD2C2AEC8700FC0538 /* WBAppWidgetEntryView.swift in Sources */,
+				DC46E73B2C2C279F00B8500B /* Extensions+String.swift in Sources */,
+				DC46E73D2C2C27AB00B8500B /* Extensions+Text.swift in Sources */,
+				DCE270ED2C2AE99C00FC0538 /* WBAppWidget.swift in Sources */,
+				DCE270EF2C2AE99C00FC0538 /* AppIntent.swift in Sources */,
+				DCE270E92C2AE99C00FC0538 /* WBAppWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE270F42C2AE99E00FC0538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE270E02C2AE99C00FC0538 /* WBAppWidgetExtension */;
+			targetProxy = DCE270F32C2AE99E00FC0538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DC8FDD8E2C189317004F1C85 /* Debug */ = {
@@ -489,8 +678,10 @@
 		DC8FDD912C189317004F1C85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WBApp/WBApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WBApp/Preview Content\"";
@@ -522,8 +713,10 @@
 		DC8FDD922C189317004F1C85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WBApp/WBApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WBApp/Preview Content\"";
@@ -552,6 +745,64 @@
 			};
 			name = Release;
 		};
+		DCE270F72C2AE99E00FC0538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WBAppWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y36X754HU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBAppWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WBAppWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nastya-Romanova.WBApp.WBAppWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE270F82C2AE99E00FC0538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WBAppWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y36X754HU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBAppWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WBAppWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nastya-Romanova.WBApp.WBAppWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,6 +820,15 @@
 			buildConfigurations = (
 				DC8FDD912C189317004F1C85 /* Debug */,
 				DC8FDD922C189317004F1C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE270F62C2AE99E00FC0538 /* Build configuration list for PBXNativeTarget "WBAppWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE270F72C2AE99E00FC0538 /* Debug */,
+				DCE270F82C2AE99E00FC0538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

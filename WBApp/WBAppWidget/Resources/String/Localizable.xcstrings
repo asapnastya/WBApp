@@ -1,0 +1,45 @@
+{
+  "sourceLanguage" : "ru",
+  "strings" : {
+    "buttonText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Написать в чат"
+          }
+        }
+      }
+    },
+    "placeholderName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Анастасия Иванова"
+          }
+        }
+      }
+    },
+    "placeholderPhone" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+7 999 999-99-99"
+          }
+        }
+      }
+    },
+    "This is the favourite contact widget." : {
+
+    },
+    "Widget" : {
+
+    }
+  },
+  "version" : "1.0"
+}
