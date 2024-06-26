@@ -64,6 +64,17 @@ struct ContactsView: View {
                     }
                 }
             }
+            .onAppear() {
+                do {
+                    let encoder = JSONEncoder()
+                    let data = try encoder.encode(contacts.first)
+                    if let userDefaults = UserDefaults(suiteName: .appGroupIdentifier) {
+                        userDefaults.set(data, forKey: .firstContactKey)
+                    }
+                } catch {
+                    print("Error with encode object")
+                }
+            }
             .background(Color.background)
         }
     }
