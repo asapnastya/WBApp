@@ -30,6 +30,7 @@
 		DC2944842C1F0BB900D31860 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		DC2944862C1F1B9F00D31860 /* Extensions+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+String.swift"; sourceTree = "<group>"; };
 		DC2944882C1F1E7500D31860 /* Extensions+Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Text.swift"; sourceTree = "<group>"; };
+		DC50641C2C30CE2E005BA47B /* 5-HW-Bank.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "5-HW-Bank.playground"; path = "../../../Desktop/5-HW-Bank.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DC65168E2C1B230100D49726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC66638E2C1B2E3500350A45 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DC8FDD822C189316004F1C85 /* WBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,10 +78,19 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		DC4DB6B32C30CDD100BDA4C9 /* 5-HW-Bank */ = {
+			isa = PBXGroup;
+			children = (
+				DC50641C2C30CE2E005BA47B /* 5-HW-Bank.playground */,
+			);
+			path = "5-HW-Bank";
+			sourceTree = "<group>";
+		};
 		DC8FDD792C189316004F1C85 = {
 			isa = PBXGroup;
 			children = (
 				DC8FDD842C189316004F1C85 /* WBApp */,
+				DC4DB6B32C30CDD100BDA4C9 /* 5-HW-Bank */,
 				DC8FDD832C189316004F1C85 /* Products */,
 			);
 			sourceTree = "<group>";
