@@ -101,6 +101,7 @@
 		DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		DCBC575B2C246A3A003265A0 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		DCBC575D2C246AEC003265A0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DCDA35212C314A890093FACB /* 5-HW-Bank.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5-HW-Bank.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCDF78792C209C88002C1205 /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
 		DCE270E12C2AE99C00FC0538 /* WBAppWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WBAppWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE270E32C2AE99C00FC0538 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -228,6 +229,7 @@
 				DC8FDD842C189316004F1C85 /* WBApp */,
 				DCE270E72C2AE99C00FC0538 /* WBAppWidget */,
 				DCE270E22C2AE99C00FC0538 /* Frameworks */,
+				DCDA35222C314A9E0093FACB /* 5-HW-Bank */,
 				DC8FDD832C189316004F1C85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -379,6 +381,14 @@
 				DCDF78792C209C88002C1205 /* ContactDetailsView.swift */,
 			);
 			path = ContactDetailsView;
+			sourceTree = "<group>";
+		};
+		DCDA35222C314A9E0093FACB /* 5-HW-Bank */ = {
+			isa = PBXGroup;
+			children = (
+				DCDA35212C314A890093FACB /* 5-HW-Bank.playground */,
+			);
+			path = "5-HW-Bank";
 			sourceTree = "<group>";
 		};
 		DCE270E22C2AE99C00FC0538 /* Frameworks */ = {
