@@ -112,6 +112,7 @@
 		DCE270F02C2AE99E00FC0538 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DCE270F22C2AE99E00FC0538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE270FB2C2AEC2B00FC0538 /* WBAppWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBAppWidgetEntryView.swift; sourceTree = "<group>"; };
+		DCEB93C42C349F4700F67F04 /* 6-HW-Bank.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6-HW-Bank.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +230,7 @@
 				DC8FDD842C189316004F1C85 /* WBApp */,
 				DCE270E72C2AE99C00FC0538 /* WBAppWidget */,
 				DCE270E22C2AE99C00FC0538 /* Frameworks */,
+				DCEB93C52C349F4F00F67F04 /* 6-HW-Bank */,
 				DCDA35222C314A9E0093FACB /* 5-HW-Bank */,
 				DC8FDD832C189316004F1C85 /* Products */,
 			);
@@ -412,6 +414,14 @@
 				DCE270F22C2AE99E00FC0538 /* Info.plist */,
 			);
 			path = WBAppWidget;
+			sourceTree = "<group>";
+		};
+		DCEB93C52C349F4F00F67F04 /* 6-HW-Bank */ = {
+			isa = PBXGroup;
+			children = (
+				DCEB93C42C349F4700F67F04 /* 6-HW-Bank.playground */,
+			);
+			path = "6-HW-Bank";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
