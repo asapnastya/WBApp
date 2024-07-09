@@ -26,10 +26,13 @@
 		DC46E73B2C2C279F00B8500B /* Extensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73A2C2C279F00B8500B /* Extensions+String.swift */; };
 		DC46E73D2C2C27AB00B8500B /* Extensions+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73C2C2C27AB00B8500B /* Extensions+Text.swift */; };
 		DC66638F2C1B2E3500350A45 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC66638E2C1B2E3500350A45 /* Colors.xcassets */; };
+		DC881FDC2C3D72530015D431 /* InfinityScrollView_LayoutConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC881FDB2C3D72530015D431 /* InfinityScrollView_LayoutConfiguration.swift */; };
 		DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD852C189316004F1C85 /* WBApp.swift */; };
 		DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD872C189316004F1C85 /* OnboardingView.swift */; };
 		DC8FDD8A2C189317004F1C85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDD892C189317004F1C85 /* Images.xcassets */; };
 		DC8FDD8D2C189317004F1C85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDD8C2C189317004F1C85 /* Preview Assets.xcassets */; };
+		DC9C38CA2C3AC19A0039222A /* InfinityScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C38C92C3AC19A0039222A /* InfinityScrollView.swift */; };
+		DC9C38CC2C3AC5410039222A /* InfinityScrollView_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C38CB2C3AC5410039222A /* InfinityScrollView_Cell.swift */; };
 		DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5F0E82C1F25A3001BE726 /* ContactsView.swift */; };
 		DCBC575A2C2432F0003265A0 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */; };
 		DCBC575C2C246A3A003265A0 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC575B2C246A3A003265A0 /* TabButton.swift */; };
@@ -95,11 +98,14 @@
 		DC46E7402C2C326800B8500B /* WBAppWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WBAppWidgetExtension.entitlements; sourceTree = "<group>"; };
 		DC65168E2C1B230100D49726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC66638E2C1B2E3500350A45 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DC881FDB2C3D72530015D431 /* InfinityScrollView_LayoutConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityScrollView_LayoutConfiguration.swift; sourceTree = "<group>"; };
 		DC8FDD822C189316004F1C85 /* WBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8FDD852C189316004F1C85 /* WBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBApp.swift; sourceTree = "<group>"; };
 		DC8FDD872C189316004F1C85 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DC8FDD892C189317004F1C85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DC8FDD8C2C189317004F1C85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC9C38C92C3AC19A0039222A /* InfinityScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityScrollView.swift; sourceTree = "<group>"; };
+		DC9C38CB2C3AC5410039222A /* InfinityScrollView_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityScrollView_Cell.swift; sourceTree = "<group>"; };
 		DCA5F0E82C1F25A3001BE726 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		DCBC575B2C246A3A003265A0 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
@@ -229,6 +235,14 @@
 			path = String;
 			sourceTree = "<group>";
 		};
+		DC881FDA2C3D72430015D431 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				DC881FDB2C3D72530015D431 /* InfinityScrollView_LayoutConfiguration.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		DC8FDD792C189316004F1C85 = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +268,7 @@
 		DC8FDD842C189316004F1C85 /* WBApp */ = {
 			isa = PBXGroup;
 			children = (
+				DC9C38C82C3AC17D0039222A /* 9-HW-InfinityScroll */,
 				DCC30E7E2C3838CE00413738 /* 7-HW-StringInterpolation */,
 				DC46E73F2C2C322300B8500B /* WBApp.entitlements */,
 				DC8FDD852C189316004F1C85 /* WBApp.swift */,
@@ -275,6 +290,32 @@
 				DC8FDD8C2C189317004F1C85 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC9C38C82C3AC17D0039222A /* 9-HW-InfinityScroll */ = {
+			isa = PBXGroup;
+			children = (
+				DC881FDA2C3D72430015D431 /* Enums */,
+				DC9C38CD2C3AC9770039222A /* InfinityScrollView */,
+				DC9C38CE2C3AC9840039222A /* Cell */,
+			);
+			path = "9-HW-InfinityScroll";
+			sourceTree = "<group>";
+		};
+		DC9C38CD2C3AC9770039222A /* InfinityScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DC9C38C92C3AC19A0039222A /* InfinityScrollView.swift */,
+			);
+			path = InfinityScrollView;
+			sourceTree = "<group>";
+		};
+		DC9C38CE2C3AC9840039222A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DC9C38CB2C3AC5410039222A /* InfinityScrollView_Cell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		DCA5F0EA2C1F4A69001BE726 /* Resources */ = {
@@ -580,6 +621,7 @@
 				DC449BDF2C21B2B100ACA837 /* ContactsView_Cell.swift in Sources */,
 				DCDF787A2C209C88002C1205 /* ContactDetailsView.swift in Sources */,
 				DC449BE52C21D94E00ACA837 /* ChatView.swift in Sources */,
+				DC9C38CA2C3AC19A0039222A /* InfinityScrollView.swift in Sources */,
 				DCBE2E5C2C36C5E100ACBDC7 /* StringIntepolationView.swift in Sources */,
 				DC05577C2C1A0A2900A5D77B /* UniversalButton.swift in Sources */,
 				DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */,
@@ -588,10 +630,12 @@
 				DC449BE12C21B3FA00ACA837 /* SearchBarView.swift in Sources */,
 				DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */,
 				DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */,
+				DC881FDC2C3D72530015D431 /* InfinityScrollView_LayoutConfiguration.swift in Sources */,
 				DC449BE72C21D95700ACA837 /* SettingsView.swift in Sources */,
 				DC449BE32C21B5D700ACA837 /* ContactView_Model.swift in Sources */,
 				DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */,
 				DCBC575C2C246A3A003265A0 /* TabButton.swift in Sources */,
+				DC9C38CC2C3AC5410039222A /* InfinityScrollView_Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
