@@ -11,31 +11,47 @@ struct AuthorizationView: View {
     
     @Environment(\.dismiss) private var dismiss
     @State private var phoneNumber: String = ""
+    @State private var isContinueButtonTapped: Bool = false
+    @State private var showProgress: Bool = false
     @FocusState private var isPhoneNumberFocused: Bool
     
     var body: some View {
         NavigationStack {
             GeometryReader {_ in
                 VStack {
-                    AuthorizationHeaderView()
-                    
-                    PhoneNumberInputView(
-                        phoneNumber: $phoneNumber,
-                        isPhoneNumberFocused: _isPhoneNumberFocused
-                    )
-                    .padding(.trailing, 24)
-                    .padding(.bottom, 69)
-                    
-                    UniversalButton(title: .continueTitle) {}
-                        .opacity(
-                            phoneNumber.isEmpty
-                            ? 0.5
-                            : 1
+                    switch showProgress {
+                    case true:
+                        ProgressView()
+                            .progressViewStyle(.circular)
+                            .frame(width: 52, height: 52)
+                        
+                    case false:
+                        AuthorizationHeaderView()
+                        
+                        PhoneNumberInputView(
+                            phoneNumber: $phoneNumber,
+                            isPhoneNumberFocused: _isPhoneNumberFocused
                         )
-                        .disabled(phoneNumber.isEmpty)
-                        .padding(.horizontal, 24)
-                    
-                    Spacer()
+                        .padding(.trailing, 24)
+                        .padding(.bottom, 69)
+                        
+                        UniversalButton(
+                            title: .continueTitle) {
+                                withAnimation {
+                                    isContinueButtonTapped.toggle()
+                                    showProgress.toggle()
+                                }
+                            }
+                            .opacity(
+                                phoneNumber.count <= 12
+                                ? 0.5
+                                : 1
+                            )
+                            .disabled(phoneNumber.count <= 12)
+                            .padding(.horizontal, 24)
+                        
+                        Spacer()
+                    }
                 }
                 .frame(
                     maxWidth: .infinity,
