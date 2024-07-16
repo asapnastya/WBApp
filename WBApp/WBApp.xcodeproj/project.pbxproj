@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DC05577C2C1A0A2900A5D77B /* UniversalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05577B2C1A0A2900A5D77B /* UniversalButton.swift */; };
 		DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */; };
+		DC2942832C44086D00C621D3 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2942822C44086D00C621D3 /* AuthorizationView.swift */; };
 		DC2944662C1ED9B400D31860 /* SFProDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */; };
 		DC2944722C1ED9B400D31860 /* SFProDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944602C1ED9B400D31860 /* SFProDisplay-Regular.otf */; };
 		DC2944792C1EDFB100D31860 /* SFProDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944782C1EDFB100D31860 /* SFProDisplay-Semibold.otf */; };
@@ -25,6 +26,8 @@
 		DC46E7372C2C257400B8500B /* ContactView_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */; };
 		DC46E73B2C2C279F00B8500B /* Extensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73A2C2C279F00B8500B /* Extensions+String.swift */; };
 		DC46E73D2C2C27AB00B8500B /* Extensions+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73C2C2C27AB00B8500B /* Extensions+Text.swift */; };
+		DC5A48702C4654C300B7C136 /* AuthorizationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A486F2C4654C300B7C136 /* AuthorizationHeaderView.swift */; };
+		DC5A48722C46558300B7C136 /* PhoneNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A48712C46558300B7C136 /* PhoneNumberInputView.swift */; };
 		DC66638F2C1B2E3500350A45 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC66638E2C1B2E3500350A45 /* Colors.xcassets */; };
 		DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD852C189316004F1C85 /* WBApp.swift */; };
 		DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD872C189316004F1C85 /* OnboardingView.swift */; };
@@ -76,6 +79,7 @@
 /* Begin PBXFileReference section */
 		DC05577B2C1A0A2900A5D77B /* UniversalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalButton.swift; sourceTree = "<group>"; };
 		DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenScreenIntent.swift; sourceTree = "<group>"; };
+		DC2942822C44086D00C621D3 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
 		DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.otf"; sourceTree = "<group>"; };
 		DC2944602C1ED9B400D31860 /* SFProDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.otf"; sourceTree = "<group>"; };
 		DC2944782C1EDFB100D31860 /* SFProDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.otf"; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		DC46E73C2C2C27AB00B8500B /* Extensions+Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+Text.swift"; sourceTree = "<group>"; };
 		DC46E73F2C2C322300B8500B /* WBApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WBApp.entitlements; sourceTree = "<group>"; };
 		DC46E7402C2C326800B8500B /* WBAppWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WBAppWidgetExtension.entitlements; sourceTree = "<group>"; };
+		DC5A486F2C4654C300B7C136 /* AuthorizationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationHeaderView.swift; sourceTree = "<group>"; };
+		DC5A48712C46558300B7C136 /* PhoneNumberInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberInputView.swift; sourceTree = "<group>"; };
 		DC65168E2C1B230100D49726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC66638E2C1B2E3500350A45 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DC8FDD822C189316004F1C85 /* WBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,6 +210,16 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		DC5A486E2C46549400B7C136 /* AuthorizationView */ = {
+			isa = PBXGroup;
+			children = (
+				DC2942822C44086D00C621D3 /* AuthorizationView.swift */,
+				DC5A486F2C4654C300B7C136 /* AuthorizationHeaderView.swift */,
+				DC5A48712C46558300B7C136 /* PhoneNumberInputView.swift */,
+			);
+			path = AuthorizationView;
+			sourceTree = "<group>";
+		};
 		DC7A78662C2CA9B00042E0DC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +273,7 @@
 				DCC30E7E2C3838CE00413738 /* 7-HW-StringInterpolation */,
 				DC46E73F2C2C322300B8500B /* WBApp.entitlements */,
 				DC8FDD852C189316004F1C85 /* WBApp.swift */,
+				DC5A486E2C46549400B7C136 /* AuthorizationView */,
 				DC1246172C29F3BB0039F7C7 /* Intents */,
 				DCA5F0EA2C1F4A69001BE726 /* Resources */,
 				DCBC57612C24C9A6003265A0 /* Screens */,
@@ -586,11 +603,14 @@
 				DCC30E822C38390E00413738 /* Extension+String.swift in Sources */,
 				DCDEF8552C2B42E7002E44B0 /* Router.swift in Sources */,
 				DC449BE12C21B3FA00ACA837 /* SearchBarView.swift in Sources */,
+				DC5A48722C46558300B7C136 /* PhoneNumberInputView.swift in Sources */,
+				DC5A48702C4654C300B7C136 /* AuthorizationHeaderView.swift in Sources */,
 				DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */,
 				DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */,
 				DC449BE72C21D95700ACA837 /* SettingsView.swift in Sources */,
 				DC449BE32C21B5D700ACA837 /* ContactView_Model.swift in Sources */,
 				DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */,
+				DC2942832C44086D00C621D3 /* AuthorizationView.swift in Sources */,
 				DCBC575C2C246A3A003265A0 /* TabButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -35,6 +35,26 @@ extension String {
         
         return "\(firstNameInitial)\(lastNameInitial)"
     }
+    
+    func formatPhoneNumber() -> String {
+        let cleanNumber = components(separatedBy: CharacterSet.decimalDigits.inverted).joined()
+        
+        let mask = "XXX XXX-XX-XX"
+        
+        var result = ""
+        var startIndex = cleanNumber.startIndex
+        let endIndex = cleanNumber.endIndex
+        
+        for char in mask where startIndex < endIndex {
+            if char == "X" {
+                result.append(cleanNumber[startIndex])
+                startIndex = cleanNumber.index(after: startIndex)
+            } else {
+                result.append(char)
+            }
+        }
+        return result
+    }
 }
 
 extension LocalizedStringKey {
@@ -44,4 +64,10 @@ extension LocalizedStringKey {
     static let startChatButtonTitle = LocalizedStringKey("startChatTitle")
     static let contactsTitle = LocalizedStringKey("contactsTitle")
     static let searchBarTitle = LocalizedStringKey("searchBarTitle")
+    
+    static let enterPhoneNumberTitle = LocalizedStringKey("enterPhoneNumberTitle")
+    static let enterPhoneNumberSubtitle = LocalizedStringKey("enterPhoneNumberSubtitle")
+    static let continueTitle = LocalizedStringKey("continueTitle")
+    static let ruPhoneCodeTitle = LocalizedStringKey("ruPhoneCodeTitle")
+    static let ruPhoneMaskDefaultTitle = LocalizedStringKey("ruPhoneMaskDefaultTitle")
 }
