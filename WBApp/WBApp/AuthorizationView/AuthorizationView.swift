@@ -27,11 +27,13 @@ struct AuthorizationView: View {
                         
                     case false:
                         AuthorizationHeaderView()
+                            .transition(.rotateAndMove(anchor: .trailing))
                         
                         PhoneNumberInputView(
                             phoneNumber: $phoneNumber,
                             isPhoneNumberFocused: _isPhoneNumberFocused
                         )
+                        .transition(.rotateAndMove(anchor: .leading))
                         .padding(.trailing, 24)
                         .padding(.bottom, 69)
                         
@@ -42,6 +44,7 @@ struct AuthorizationView: View {
                                     showProgress.toggle()
                                 }
                             }
+                            .transition(.rotateAndMove(anchor: .trailing))
                             .opacity(
                                 phoneNumber.count <= 12
                                 ? 0.5

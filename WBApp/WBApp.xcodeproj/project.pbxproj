@@ -28,6 +28,7 @@
 		DC46E73D2C2C27AB00B8500B /* Extensions+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73C2C2C27AB00B8500B /* Extensions+Text.swift */; };
 		DC5A48702C4654C300B7C136 /* AuthorizationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A486F2C4654C300B7C136 /* AuthorizationHeaderView.swift */; };
 		DC5A48722C46558300B7C136 /* PhoneNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A48712C46558300B7C136 /* PhoneNumberInputView.swift */; };
+		DC5BE6082C471F2F00C2DE18 /* Extensions+AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5BE6072C471F2F00C2DE18 /* Extensions+AnyTransition.swift */; };
 		DC66638F2C1B2E3500350A45 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC66638E2C1B2E3500350A45 /* Colors.xcassets */; };
 		DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD852C189316004F1C85 /* WBApp.swift */; };
 		DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD872C189316004F1C85 /* OnboardingView.swift */; };
@@ -50,6 +51,7 @@
 		DCE270F52C2AE99E00FC0538 /* WBAppWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DCE270E12C2AE99C00FC0538 /* WBAppWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DCE270FA2C2AE9CB00FC0538 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE270E32C2AE99C00FC0538 /* WidgetKit.framework */; };
 		DCE270FD2C2AEC8700FC0538 /* WBAppWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE270FB2C2AEC2B00FC0538 /* WBAppWidgetEntryView.swift */; };
+		DCFF62B22C472BE1009AA550 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF62B12C472BE1009AA550 /* ViewModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,7 @@
 		DC46E7402C2C326800B8500B /* WBAppWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WBAppWidgetExtension.entitlements; sourceTree = "<group>"; };
 		DC5A486F2C4654C300B7C136 /* AuthorizationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationHeaderView.swift; sourceTree = "<group>"; };
 		DC5A48712C46558300B7C136 /* PhoneNumberInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberInputView.swift; sourceTree = "<group>"; };
+		DC5BE6072C471F2F00C2DE18 /* Extensions+AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+AnyTransition.swift"; sourceTree = "<group>"; };
 		DC65168E2C1B230100D49726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC66638E2C1B2E3500350A45 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DC8FDD822C189316004F1C85 /* WBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +128,7 @@
 		DCE270F22C2AE99E00FC0538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE270FB2C2AEC2B00FC0538 /* WBAppWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBAppWidgetEntryView.swift; sourceTree = "<group>"; };
 		DCEB93C42C349F4700F67F04 /* 6-HW-Bank.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6-HW-Bank.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCFF62B12C472BE1009AA550 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +277,7 @@
 				DCC30E7E2C3838CE00413738 /* 7-HW-StringInterpolation */,
 				DC46E73F2C2C322300B8500B /* WBApp.entitlements */,
 				DC8FDD852C189316004F1C85 /* WBApp.swift */,
+				DCFF62B32C472BF1009AA550 /* ViewModifiers */,
 				DC5A486E2C46549400B7C136 /* AuthorizationView */,
 				DC1246172C29F3BB0039F7C7 /* Intents */,
 				DCA5F0EA2C1F4A69001BE726 /* Resources */,
@@ -310,6 +315,7 @@
 			children = (
 				DC2944882C1F1E7500D31860 /* Extensions+Text.swift */,
 				DC2944862C1F1B9F00D31860 /* Extensions+String.swift */,
+				DC5BE6072C471F2F00C2DE18 /* Extensions+AnyTransition.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -482,6 +488,14 @@
 			path = "6-HW-Bank";
 			sourceTree = "<group>";
 		};
+		DCFF62B32C472BF1009AA550 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF62B12C472BE1009AA550 /* ViewModifiers.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -593,6 +607,7 @@
 				DCC30E842C38392600413738 /* Countries.swift in Sources */,
 				DC2944872C1F1B9F00D31860 /* Extensions+String.swift in Sources */,
 				DC2944892C1F1E7500D31860 /* Extensions+Text.swift in Sources */,
+				DCFF62B22C472BE1009AA550 /* ViewModifiers.swift in Sources */,
 				DC449BE92C21DBF400ACA837 /* CustomTabView.swift in Sources */,
 				DC449BDF2C21B2B100ACA837 /* ContactsView_Cell.swift in Sources */,
 				DCDF787A2C209C88002C1205 /* ContactDetailsView.swift in Sources */,
@@ -603,6 +618,7 @@
 				DCC30E822C38390E00413738 /* Extension+String.swift in Sources */,
 				DCDEF8552C2B42E7002E44B0 /* Router.swift in Sources */,
 				DC449BE12C21B3FA00ACA837 /* SearchBarView.swift in Sources */,
+				DC5BE6082C471F2F00C2DE18 /* Extensions+AnyTransition.swift in Sources */,
 				DC5A48722C46558300B7C136 /* PhoneNumberInputView.swift in Sources */,
 				DC5A48702C4654C300B7C136 /* AuthorizationHeaderView.swift in Sources */,
 				DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */,
