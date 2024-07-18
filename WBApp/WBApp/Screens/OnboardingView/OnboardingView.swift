@@ -51,7 +51,7 @@ struct OnboardingView: View {
             }
             .background(Color(.background))
             .fullScreenCover(isPresented: $isSheetPresented) {
-                CustomTabView()
+                AuthorizationView()
             }
         }
     }

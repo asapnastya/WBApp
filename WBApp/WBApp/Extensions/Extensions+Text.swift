@@ -113,4 +113,24 @@ extension Text {
             return text.foregroundColor(.buttonTitle)
         }
     }
+    
+    func authorizationTitle() -> Text {
+        let text = self.font(.custom("SFProDisplay-Regular", size: 14))
+        
+        if #available(iOS 17.0, *) {
+            return text.foregroundStyle(.blackText)
+        } else {
+            return text.foregroundColor(.blackText)
+        }
+    }
+    
+    func phoneCodeTitle() -> Text {
+        let text = self.font(.custom("SFProDisplay-Semibold", size: 14))
+        
+        if #available(iOS 17.0, *) {
+            return text.foregroundStyle(.phoneCode)
+        } else {
+            return text.foregroundColor(.phoneCode)
+        }
+    }
 }

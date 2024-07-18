@@ -10,6 +10,9 @@
     "💬" : {
 
     },
+    "000 000-00-00" : {
+
+    },
     "agreementText" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -31,6 +34,17 @@
         }
       }
     },
+    "continueTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
+          }
+        }
+      }
+    },
     "dismissTitle" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -38,6 +52,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрыть"
+          }
+        }
+      }
+    },
+    "enterPhoneNumberSubtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мы вышлем код подтверждения на указанный номер"
+          }
+        }
+      }
+    },
+    "enterPhoneNumberTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите номер телефона"
           }
         }
       }
@@ -139,6 +175,31 @@
           }
         }
       }
+    },
+    "ru" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "000 000-00-00"
+          }
+        }
+      }
+    },
+    "ruPhoneCodeTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+7"
+          }
+        }
+      }
+    },
+    "ruPhoneMaskDefaultTitle" : {
+
     },
     "searchBarTitle" : {
       "extractionState" : "manual",
