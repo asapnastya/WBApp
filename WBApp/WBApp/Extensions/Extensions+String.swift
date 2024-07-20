@@ -64,10 +64,12 @@ extension LocalizedStringKey {
     static let startChatButtonTitle = LocalizedStringKey("startChatTitle")
     static let contactsTitle = LocalizedStringKey("contactsTitle")
     static let searchBarTitle = LocalizedStringKey("searchBarTitle")
-    
     static let enterPhoneNumberTitle = LocalizedStringKey("enterPhoneNumberTitle")
     static let enterPhoneNumberSubtitle = LocalizedStringKey("enterPhoneNumberSubtitle")
     static let continueTitle = LocalizedStringKey("continueTitle")
     static let ruPhoneCodeTitle = LocalizedStringKey("ruPhoneCodeTitle")
     static let ruPhoneMaskDefaultTitle = LocalizedStringKey("ruPhoneMaskDefaultTitle")
+    static let enterConfirmationCodeTitle = LocalizedStringKey("enterConfirmationCodeTitle")
+    static let enterConfirmationCodeSubtitle = LocalizedStringKey("enterConfirmationCodeSubtitle")
+    static let resendConfirmationCodeTitle = LocalizedStringKey("resendConfirmationCodeTitle")
 }

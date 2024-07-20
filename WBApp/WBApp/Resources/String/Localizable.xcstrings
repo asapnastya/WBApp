@@ -56,6 +56,28 @@
         }
       }
     },
+    "enterConfirmationCodeSubtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправили код на номер"
+          }
+        }
+      }
+    },
+    "enterConfirmationCodeTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите код"
+          }
+        }
+      }
+    },
     "enterPhoneNumberSubtitle" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -172,6 +194,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Политикой Конфиденциальности"
+          }
+        }
+      }
+    },
+    "resendConfirmationCodeTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запросить код повторно"
           }
         }
       }

@@ -114,7 +114,7 @@ extension Text {
         }
     }
     
-    func authorizationTitle() -> Text {
+    func subtitle2() -> Text {
         let text = self.font(.custom("SFProDisplay-Regular", size: 14))
         
         if #available(iOS 17.0, *) {
@@ -131,6 +131,26 @@ extension Text {
             return text.foregroundStyle(.phoneCode)
         } else {
             return text.foregroundColor(.phoneCode)
+        }
+    }
+    
+    func confirmationCodeTitle() -> Text {
+        let text = self.font(.custom("SFProDisplay-Bold", size: 32))
+        
+        if #available(iOS 17.0, *) {
+            return text.foregroundStyle(.blackText)
+        } else {
+            return text.foregroundColor(.blackText)
+        }
+    }
+    
+    func resendConfirmationCodeTitle() -> Text {
+        let text = self.font(.custom("SFProDisplay-Semibold", size: 16))
+        
+        if #available(iOS 17.0, *) {
+            return text.foregroundStyle(.resendConfirmationCodeButton)
+        } else {
+            return text.foregroundColor(.resendConfirmationCodeButton)
         }
     }
 }
