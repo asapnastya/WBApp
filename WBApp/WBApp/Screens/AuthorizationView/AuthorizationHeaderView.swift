@@ -20,7 +20,7 @@ struct AuthorizationHeaderView: View {
             .padding(.bottom, 8)
         
         Text(.enterPhoneNumberSubtitle)
-            .authorizationTitle()
+            .subtitle2()
             .lineSpacing(10)
             .multilineTextAlignment(.center)
             .padding(.leading, 40)
