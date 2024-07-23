@@ -84,6 +84,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC01D6B92C4E6C9C00C40781 /* 12-HW-Hash.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12-HW-Hash.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DC01D6BA2C4E6C9C00C40781 /* 12-HW-Set.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12-HW-Set.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DC01D6BB2C4E6C9C00C40781 /* 12-HW-Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "12-HW-Dictionary.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DC05577B2C1A0A2900A5D77B /* UniversalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalButton.swift; sourceTree = "<group>"; };
 		DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenScreenIntent.swift; sourceTree = "<group>"; };
 		DC2942822C44086D00C621D3 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
@@ -162,6 +165,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC01D6B82C4E6C5800C40781 /* 12-HW-Hash-Set-Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				DC01D6B92C4E6C9C00C40781 /* 12-HW-Hash.playground */,
+				DC01D6BA2C4E6C9C00C40781 /* 12-HW-Set.playground */,
+				DC01D6BB2C4E6C9C00C40781 /* 12-HW-Dictionary.playground */,
+			);
+			path = "12-HW-Hash-Set-Dictionary";
+			sourceTree = "<group>";
+		};
 		DC0E06942C1ED17C00345686 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +291,7 @@
 				DCE270E22C2AE99C00FC0538 /* Frameworks */,
 				DCEB93C52C349F4F00F67F04 /* 6-HW-Bank */,
 				DCDA35222C314A9E0093FACB /* 5-HW-Bank */,
+				DC01D6B82C4E6C5800C40781 /* 12-HW-Hash-Set-Dictionary */,
 				DC8FDD832C189316004F1C85 /* Products */,
 			);
 			sourceTree = "<group>";
