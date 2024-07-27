@@ -7,18 +7,24 @@
 
 import SwiftUI
 
-struct BackButtonModifier: ViewModifier {
+public struct BackButtonModifier: ViewModifier {
     
     @Environment(\.dismiss) private var dismiss
     
-    func body(content: Content) -> some View {
+    private var icon: Image
+    
+    public init(icon: Image) {
+        self.icon = icon
+    }
+    
+    public func body(content: Content) -> some View {
         content
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {
                         dismiss()
                     }) {
-                        Image(.icBackButton)
+                        icon
                             .frame(width: 24, height: 24)
                     }
                 }

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UISystem
 
 struct AuthorizationConfirmationView: View {
     
@@ -40,7 +41,13 @@ struct AuthorizationConfirmationView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.background)
         .navigationBarBackButtonHidden()
-        .modifier(BackButtonModifier())
+        .modifier(
+            BackButtonModifier(
+                icon: Image(
+                    .icBackButton
+                )
+            )
+        )
     }
 }
 

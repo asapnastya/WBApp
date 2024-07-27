@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UISystem
 
 struct AuthorizationView: View {
     
@@ -32,19 +33,21 @@ struct AuthorizationView: View {
                     .padding(.bottom, 69)
                     
                     UniversalButton(
-                        title: .continueTitle) {
-                            withAnimation {
-                                confirmationCodeModel.phoneNumber = phoneNumber
-                                isContinueButtonTapped.toggle()
-                            }
+                        color: .purpleButton,
+                        text: Text(.continueTitle).buttonTitle1()
+                    ){
+                        withAnimation {
+                            confirmationCodeModel.phoneNumber = phoneNumber
+                            isContinueButtonTapped.toggle()
                         }
-                        .opacity(
-                            phoneNumber.count <= 12
-                            ? 0.5
-                            : 1
-                        )
-                        .disabled(phoneNumber.count <= 12)
-                        .padding(.horizontal, 24)
+                    }
+                    .opacity(
+                        phoneNumber.count <= 12
+                        ? 0.5
+                        : 1
+                    )
+                    .disabled(phoneNumber.count <= 12)
+                    .padding(.horizontal, 24)
                     
                     Spacer()
                 }
@@ -53,7 +56,13 @@ struct AuthorizationView: View {
                     maxHeight: .infinity
                 )
                 .background(Color.background)
-                .modifier(BackButtonModifier())
+                .modifier(
+                    BackButtonModifier(
+                        icon: Image(
+                            .icBackButton
+                        )
+                    )
+                )
                 .navigationDestination(
                     isPresented: $isContinueButtonTapped
                 ){

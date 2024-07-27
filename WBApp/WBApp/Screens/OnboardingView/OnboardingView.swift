@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UISystem
 
 struct OnboardingView: View {
     
@@ -42,8 +43,9 @@ struct OnboardingView: View {
                     .padding(.horizontal, 24)
                 
                 UniversalButton(
-                    title: .startChatButtonTitle
-                ) {
+                    color: .purpleButton,
+                    text: Text(.startChatButtonTitle).buttonTitle1()
+                ){
                     isSheetPresented.toggle()
                 }
                 .padding(.horizontal, 24)

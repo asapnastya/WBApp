@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC05577C2C1A0A2900A5D77B /* UniversalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC05577B2C1A0A2900A5D77B /* UniversalButton.swift */; };
 		DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */; };
 		DC2942832C44086D00C621D3 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2942822C44086D00C621D3 /* AuthorizationView.swift */; };
 		DC2944662C1ED9B400D31860 /* SFProDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */; };
 		DC2944722C1ED9B400D31860 /* SFProDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944602C1ED9B400D31860 /* SFProDisplay-Regular.otf */; };
 		DC2944792C1EDFB100D31860 /* SFProDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944782C1EDFB100D31860 /* SFProDisplay-Semibold.otf */; };
-		DC2944852C1F0BB900D31860 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DC2944842C1F0BB900D31860 /* Localizable.xcstrings */; };
 		DC2944872C1F1B9F00D31860 /* Extensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2944862C1F1B9F00D31860 /* Extensions+String.swift */; };
 		DC2944892C1F1E7500D31860 /* Extensions+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2944882C1F1E7500D31860 /* Extensions+Text.swift */; };
 		DC34AD792C4A6FEF00763E23 /* AuthorizationConfirmation_HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34AD782C4A6FEF00763E23 /* AuthorizationConfirmation_HeaderView.swift */; };
 		DC34AD7B2C4A8C0E00763E23 /* ConfirmationCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34AD7A2C4A8C0E00763E23 /* ConfirmationCodeModel.swift */; };
 		DC449BDF2C21B2B100ACA837 /* ContactsView_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BDE2C21B2B100ACA837 /* ContactsView_Cell.swift */; };
-		DC449BE12C21B3FA00ACA837 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE02C21B3FA00ACA837 /* SearchBarView.swift */; };
 		DC449BE32C21B5D700ACA837 /* ContactView_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */; };
 		DC449BE52C21D94E00ACA837 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE42C21D94E00ACA837 /* ChatView.swift */; };
 		DC449BE72C21D95700ACA837 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE62C21D95700ACA837 /* SettingsView.swift */; };
@@ -28,8 +25,6 @@
 		DC46E7372C2C257400B8500B /* ContactView_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */; };
 		DC46E73B2C2C279F00B8500B /* Extensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73A2C2C279F00B8500B /* Extensions+String.swift */; };
 		DC46E73D2C2C27AB00B8500B /* Extensions+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73C2C2C27AB00B8500B /* Extensions+Text.swift */; };
-		DC4FA2AF2C4BD5D900EC99EB /* BackButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4FA2AE2C4BD5D900EC99EB /* BackButtonModifier.swift */; };
-		DC4FA2B12C4BDB2F00EC99EB /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4FA2B02C4BDB2F00EC99EB /* OTPFieldView.swift */; };
 		DC5A48702C4654C300B7C136 /* AuthorizationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A486F2C4654C300B7C136 /* AuthorizationHeaderView.swift */; };
 		DC5A48722C46558300B7C136 /* PhoneNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A48712C46558300B7C136 /* PhoneNumberInputView.swift */; };
 		DC66638F2C1B2E3500350A45 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC66638E2C1B2E3500350A45 /* Colors.xcassets */; };
@@ -37,7 +32,6 @@
 		DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD872C189316004F1C85 /* OnboardingView.swift */; };
 		DC8FDD8A2C189317004F1C85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDD892C189317004F1C85 /* Images.xcassets */; };
 		DC8FDD8D2C189317004F1C85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDD8C2C189317004F1C85 /* Preview Assets.xcassets */; };
-		DC9AEAD22C4BBD2C000BC4D7 /* Extension+Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9AEAD12C4BBD2C000BC4D7 /* Extension+Binding.swift */; };
 		DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5F0E82C1F25A3001BE726 /* ContactsView.swift */; };
 		DCBC575A2C2432F0003265A0 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */; };
 		DCBC575C2C246A3A003265A0 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC575B2C246A3A003265A0 /* TabButton.swift */; };
@@ -56,7 +50,11 @@
 		DCE270F52C2AE99E00FC0538 /* WBAppWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DCE270E12C2AE99C00FC0538 /* WBAppWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DCE270FA2C2AE9CB00FC0538 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE270E32C2AE99C00FC0538 /* WidgetKit.framework */; };
 		DCE270FD2C2AEC8700FC0538 /* WBAppWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE270FB2C2AEC2B00FC0538 /* WBAppWidgetEntryView.swift */; };
-		DCFF62B22C472BE1009AA550 /* ConfirmationCodeTextBoxModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF62B12C472BE1009AA550 /* ConfirmationCodeTextBoxModifier.swift */; };
+		DCFD249A2C540E8000FB4A51 /* UISystem in Frameworks */ = {isa = PBXBuildFile; productRef = DCFD24992C540E8000FB4A51 /* UISystem */; };
+		DCFD249C2C5418C700FB4A51 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DCFD249B2C5418C700FB4A51 /* Localizable.xcstrings */; };
+		DCFD24AB2C5503C700FB4A51 /* ConfirmationCodeTextBoxModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD24A92C5503C700FB4A51 /* ConfirmationCodeTextBoxModifier.swift */; };
+		DCFD24B12C5503F600FB4A51 /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD24AF2C5503F600FB4A51 /* OTPFieldView.swift */; };
+		DCFD24B32C55040600FB4A51 /* Extension+Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD24B22C55040600FB4A51 /* Extension+Binding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,19 +82,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DC05577B2C1A0A2900A5D77B /* UniversalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalButton.swift; sourceTree = "<group>"; };
 		DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenScreenIntent.swift; sourceTree = "<group>"; };
 		DC2942822C44086D00C621D3 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
 		DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.otf"; sourceTree = "<group>"; };
 		DC2944602C1ED9B400D31860 /* SFProDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.otf"; sourceTree = "<group>"; };
 		DC2944782C1EDFB100D31860 /* SFProDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.otf"; sourceTree = "<group>"; };
-		DC2944842C1F0BB900D31860 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		DC2944862C1F1B9F00D31860 /* Extensions+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+String.swift"; sourceTree = "<group>"; };
 		DC2944882C1F1E7500D31860 /* Extensions+Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Text.swift"; sourceTree = "<group>"; };
 		DC34AD782C4A6FEF00763E23 /* AuthorizationConfirmation_HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationConfirmation_HeaderView.swift; sourceTree = "<group>"; };
 		DC34AD7A2C4A8C0E00763E23 /* ConfirmationCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationCodeModel.swift; sourceTree = "<group>"; };
 		DC449BDE2C21B2B100ACA837 /* ContactsView_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView_Cell.swift; sourceTree = "<group>"; };
-		DC449BE02C21B3FA00ACA837 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView_Model.swift; sourceTree = "<group>"; };
 		DC449BE42C21D94E00ACA837 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		DC449BE62C21D95700ACA837 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -106,8 +101,6 @@
 		DC46E73C2C2C27AB00B8500B /* Extensions+Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+Text.swift"; sourceTree = "<group>"; };
 		DC46E73F2C2C322300B8500B /* WBApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WBApp.entitlements; sourceTree = "<group>"; };
 		DC46E7402C2C326800B8500B /* WBAppWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WBAppWidgetExtension.entitlements; sourceTree = "<group>"; };
-		DC4FA2AE2C4BD5D900EC99EB /* BackButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonModifier.swift; sourceTree = "<group>"; };
-		DC4FA2B02C4BDB2F00EC99EB /* OTPFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPFieldView.swift; sourceTree = "<group>"; };
 		DC5A486F2C4654C300B7C136 /* AuthorizationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationHeaderView.swift; sourceTree = "<group>"; };
 		DC5A48712C46558300B7C136 /* PhoneNumberInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberInputView.swift; sourceTree = "<group>"; };
 		DC65168E2C1B230100D49726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,9 +108,8 @@
 		DC8FDD822C189316004F1C85 /* WBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8FDD852C189316004F1C85 /* WBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBApp.swift; sourceTree = "<group>"; };
 		DC8FDD872C189316004F1C85 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		DC8FDD892C189317004F1C85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC8FDD892C189317004F1C85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WBApp/Resources/Images/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		DC8FDD8C2C189317004F1C85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DC9AEAD12C4BBD2C000BC4D7 /* Extension+Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Binding.swift"; sourceTree = "<group>"; };
 		DCA5F0E82C1F25A3001BE726 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		DCBC575B2C246A3A003265A0 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
@@ -138,7 +130,11 @@
 		DCE270F22C2AE99E00FC0538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE270FB2C2AEC2B00FC0538 /* WBAppWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBAppWidgetEntryView.swift; sourceTree = "<group>"; };
 		DCEB93C42C349F4700F67F04 /* 6-HW-Bank.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6-HW-Bank.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DCFF62B12C472BE1009AA550 /* ConfirmationCodeTextBoxModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationCodeTextBoxModifier.swift; sourceTree = "<group>"; };
+		DCFD24982C540E0200FB4A51 /* UISystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UISystem; path = Modules/UISystem; sourceTree = SOURCE_ROOT; };
+		DCFD249B2C5418C700FB4A51 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DCFD24A92C5503C700FB4A51 /* ConfirmationCodeTextBoxModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationCodeTextBoxModifier.swift; sourceTree = "<group>"; };
+		DCFD24AF2C5503F600FB4A51 /* OTPFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPFieldView.swift; sourceTree = "<group>"; };
+		DCFD24B22C55040600FB4A51 /* Extension+Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Binding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE270FA2C2AE9CB00FC0538 /* WidgetKit.framework in Frameworks */,
+				DCFD249A2C540E8000FB4A51 /* UISystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,21 +178,11 @@
 			path = Intents;
 			sourceTree = "<group>";
 		};
-		DC1C293A2C232833001507F4 /* UniversalButton */ = {
-			isa = PBXGroup;
-			children = (
-				DC05577B2C1A0A2900A5D77B /* UniversalButton.swift */,
-			);
-			path = UniversalButton;
-			sourceTree = "<group>";
-		};
 		DC1C293D2C23286B001507F4 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
-				DCFF62B32C472BF1009AA550 /* ViewModifiers */,
-				DC4FA2AD2C4BD47C00EC99EB /* OTPFieldView */,
-				DCBC57652C24CB07003265A0 /* SearchBar */,
-				DC1C293A2C232833001507F4 /* UniversalButton */,
+				DCFD24B02C5503F600FB4A51 /* OTPFieldView */,
+				DCFD24A82C55039E00FB4A51 /* ViewModifiers */,
 				DCBC57642C24CAB9003265A0 /* Tab */,
 			);
 			path = CustomUI;
@@ -224,14 +211,6 @@
 				DC46E73A2C2C279F00B8500B /* Extensions+String.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		DC4FA2AD2C4BD47C00EC99EB /* OTPFieldView */ = {
-			isa = PBXGroup;
-			children = (
-				DC4FA2B02C4BDB2F00EC99EB /* OTPFieldView.swift */,
-			);
-			path = OTPFieldView;
 			sourceTree = "<group>";
 		};
 		DC5A486E2C46549400B7C136 /* AuthorizationView */ = {
@@ -295,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				DCC30E7E2C3838CE00413738 /* 7-HW-StringInterpolation */,
+				DCFD24982C540E0200FB4A51 /* UISystem */,
 				DC46E73F2C2C322300B8500B /* WBApp.entitlements */,
 				DC8FDD852C189316004F1C85 /* WBApp.swift */,
 				DC1246172C29F3BB0039F7C7 /* Intents */,
@@ -331,7 +311,7 @@
 		DCA5F0EB2C1F4B56001BE726 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				DC9AEAD12C4BBD2C000BC4D7 /* Extension+Binding.swift */,
+				DCFD24B22C55040600FB4A51 /* Extension+Binding.swift */,
 				DC2944882C1F1E7500D31860 /* Extensions+Text.swift */,
 				DC2944862C1F1B9F00D31860 /* Extensions+String.swift */,
 			);
@@ -387,18 +367,10 @@
 			path = Tab;
 			sourceTree = "<group>";
 		};
-		DCBC57652C24CB07003265A0 /* SearchBar */ = {
-			isa = PBXGroup;
-			children = (
-				DC449BE02C21B3FA00ACA837 /* SearchBarView.swift */,
-			);
-			path = SearchBar;
-			sourceTree = "<group>";
-		};
 		DCBC57662C24CCF2003265A0 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				DC2944842C1F0BB900D31860 /* Localizable.xcstrings */,
+				DCFD249B2C5418C700FB4A51 /* Localizable.xcstrings */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -518,13 +490,28 @@
 			path = "6-HW-Bank";
 			sourceTree = "<group>";
 		};
-		DCFF62B32C472BF1009AA550 /* ViewModifiers */ = {
+		DCFD24A82C55039E00FB4A51 /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
-				DCFF62B12C472BE1009AA550 /* ConfirmationCodeTextBoxModifier.swift */,
-				DC4FA2AE2C4BD5D900EC99EB /* BackButtonModifier.swift */,
+				DCFD24AA2C5503C700FB4A51 /* ConfirmationCodeTextBoxModifier */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		DCFD24AA2C5503C700FB4A51 /* ConfirmationCodeTextBoxModifier */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD24A92C5503C700FB4A51 /* ConfirmationCodeTextBoxModifier.swift */,
+			);
+			path = ConfirmationCodeTextBoxModifier;
+			sourceTree = "<group>";
+		};
+		DCFD24B02C5503F600FB4A51 /* OTPFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD24AF2C5503F600FB4A51 /* OTPFieldView.swift */,
+			);
+			path = OTPFieldView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -545,6 +532,9 @@
 				DCE270F42C2AE99E00FC0538 /* PBXTargetDependency */,
 			);
 			name = WBApp;
+			packageProductDependencies = (
+				DCFD24992C540E8000FB4A51 /* UISystem */,
+			);
 			productName = WBApp;
 			productReference = DC8FDD822C189316004F1C85 /* WBApp.app */;
 			productType = "com.apple.product-type.application";
@@ -610,10 +600,10 @@
 			files = (
 				DC2944792C1EDFB100D31860 /* SFProDisplay-Semibold.otf in Resources */,
 				DC66638F2C1B2E3500350A45 /* Colors.xcassets in Resources */,
+				DCFD249C2C5418C700FB4A51 /* Localizable.xcstrings in Resources */,
 				DC8FDD8D2C189317004F1C85 /* Preview Assets.xcassets in Resources */,
 				DC2944662C1ED9B400D31860 /* SFProDisplay-Bold.otf in Resources */,
 				DC8FDD8A2C189317004F1C85 /* Images.xcassets in Resources */,
-				DC2944852C1F0BB900D31860 /* Localizable.xcstrings in Resources */,
 				DC2944722C1ED9B400D31860 /* SFProDisplay-Regular.otf in Resources */,
 				DCBC575A2C2432F0003265A0 /* Lato-Bold.ttf in Resources */,
 			);
@@ -638,21 +628,16 @@
 				DCC30E842C38392600413738 /* Countries.swift in Sources */,
 				DC2944872C1F1B9F00D31860 /* Extensions+String.swift in Sources */,
 				DC2944892C1F1E7500D31860 /* Extensions+Text.swift in Sources */,
-				DCFF62B22C472BE1009AA550 /* ConfirmationCodeTextBoxModifier.swift in Sources */,
 				DC34AD7B2C4A8C0E00763E23 /* ConfirmationCodeModel.swift in Sources */,
 				DC449BE92C21DBF400ACA837 /* CustomTabView.swift in Sources */,
 				DC449BDF2C21B2B100ACA837 /* ContactsView_Cell.swift in Sources */,
-				DC4FA2B12C4BDB2F00EC99EB /* OTPFieldView.swift in Sources */,
 				DCDF787A2C209C88002C1205 /* ContactDetailsView.swift in Sources */,
 				DC449BE52C21D94E00ACA837 /* ChatView.swift in Sources */,
 				DCBE2E5C2C36C5E100ACBDC7 /* StringIntepolationView.swift in Sources */,
-				DC4FA2AF2C4BD5D900EC99EB /* BackButtonModifier.swift in Sources */,
-				DC05577C2C1A0A2900A5D77B /* UniversalButton.swift in Sources */,
-				DC9AEAD22C4BBD2C000BC4D7 /* Extension+Binding.swift in Sources */,
+				DCFD24AB2C5503C700FB4A51 /* ConfirmationCodeTextBoxModifier.swift in Sources */,
 				DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */,
 				DCC30E822C38390E00413738 /* Extension+String.swift in Sources */,
 				DCDEF8552C2B42E7002E44B0 /* Router.swift in Sources */,
-				DC449BE12C21B3FA00ACA837 /* SearchBarView.swift in Sources */,
 				DC5A48722C46558300B7C136 /* PhoneNumberInputView.swift in Sources */,
 				DC5A48702C4654C300B7C136 /* AuthorizationHeaderView.swift in Sources */,
 				DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */,
@@ -661,7 +646,9 @@
 				DC34AD792C4A6FEF00763E23 /* AuthorizationConfirmation_HeaderView.swift in Sources */,
 				DC449BE32C21B5D700ACA837 /* ContactView_Model.swift in Sources */,
 				DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */,
+				DCFD24B32C55040600FB4A51 /* Extension+Binding.swift in Sources */,
 				DCC6CF302C496B6A009BC26C /* AuthorizationConfirmationView.swift in Sources */,
+				DCFD24B12C5503F600FB4A51 /* OTPFieldView.swift in Sources */,
 				DC2942832C44086D00C621D3 /* AuthorizationView.swift in Sources */,
 				DCBC575C2C246A3A003265A0 /* TabButton.swift in Sources */,
 			);
@@ -970,6 +957,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCFD24992C540E8000FB4A51 /* UISystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UISystem;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC8FDD7A2C189316004F1C85 /* Project object */;
 }
