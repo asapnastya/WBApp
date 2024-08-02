@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UISystem
 
 struct ContactsView: View {
     
@@ -26,7 +27,12 @@ struct ContactsView: View {
         
         NavigationStack(path: $path) {
             VStack() {
-                SearchBarView(searchText: $searchText)
+                SearchBarView(
+                    searchText: $searchText,
+                    icon: Image(.icSearch),
+                    textColor: .grayMainText,
+                    backgroundColor: .searchBarBackground,
+                    text: Text(.searchBarTitle).searchBarTitle())
                 
                 List(filteredContacts) { contact in
                     ContactsView_Cell(contact: contact)
