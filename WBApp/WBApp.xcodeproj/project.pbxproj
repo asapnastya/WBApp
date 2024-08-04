@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */; };
+		DC2457C52C5F67DE004C9AE6 /* ContactView_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */; };
+		DC2457CB2C5F6C16004C9AE6 /* AsyncImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2457C82C5F6C16004C9AE6 /* AsyncImageLoader.swift */; };
+		DC2457CC2C5F6C16004C9AE6 /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2457C92C5F6C16004C9AE6 /* CustomAsyncImage.swift */; };
+		DC2457CD2C5F6C32004C9AE6 /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2457C92C5F6C16004C9AE6 /* CustomAsyncImage.swift */; };
+		DC2457CE2C5F6C44004C9AE6 /* AsyncImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2457C82C5F6C16004C9AE6 /* AsyncImageLoader.swift */; };
 		DC2942832C44086D00C621D3 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2942822C44086D00C621D3 /* AuthorizationView.swift */; };
 		DC2944662C1ED9B400D31860 /* SFProDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */; };
 		DC2944722C1ED9B400D31860 /* SFProDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944602C1ED9B400D31860 /* SFProDisplay-Regular.otf */; };
@@ -22,7 +27,6 @@
 		DC449BE72C21D95700ACA837 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE62C21D95700ACA837 /* SettingsView.swift */; };
 		DC449BE92C21DBF400ACA837 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE82C21DBF400ACA837 /* CustomTabView.swift */; };
 		DC46E7352C2C236700B8500B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DC46E7342C2C236600B8500B /* Localizable.xcstrings */; };
-		DC46E7372C2C257400B8500B /* ContactView_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */; };
 		DC46E73B2C2C279F00B8500B /* Extensions+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73A2C2C279F00B8500B /* Extensions+String.swift */; };
 		DC46E73D2C2C27AB00B8500B /* Extensions+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC46E73C2C2C27AB00B8500B /* Extensions+Text.swift */; };
 		DC5A48702C4654C300B7C136 /* AuthorizationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A486F2C4654C300B7C136 /* AuthorizationHeaderView.swift */; };
@@ -83,6 +87,8 @@
 
 /* Begin PBXFileReference section */
 		DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenScreenIntent.swift; sourceTree = "<group>"; };
+		DC2457C82C5F6C16004C9AE6 /* AsyncImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageLoader.swift; sourceTree = "<group>"; };
+		DC2457C92C5F6C16004C9AE6 /* CustomAsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAsyncImage.swift; sourceTree = "<group>"; };
 		DC2942822C44086D00C621D3 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
 		DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.otf"; sourceTree = "<group>"; };
 		DC2944602C1ED9B400D31860 /* SFProDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.otf"; sourceTree = "<group>"; };
@@ -181,11 +187,21 @@
 		DC1C293D2C23286B001507F4 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
+				DC2457CA2C5F6C16004C9AE6 /* AsyncImage */,
 				DCFD24B02C5503F600FB4A51 /* OTPFieldView */,
 				DCFD24A82C55039E00FB4A51 /* ViewModifiers */,
 				DCBC57642C24CAB9003265A0 /* Tab */,
 			);
 			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		DC2457CA2C5F6C16004C9AE6 /* AsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				DC2457C82C5F6C16004C9AE6 /* AsyncImageLoader.swift */,
+				DC2457C92C5F6C16004C9AE6 /* CustomAsyncImage.swift */,
+			);
+			path = AsyncImage;
 			sourceTree = "<group>";
 		};
 		DC29447E2C1EF14F00D31860 /* Colors */ = {
@@ -626,6 +642,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC30E842C38392600413738 /* Countries.swift in Sources */,
+				DC2457CC2C5F6C16004C9AE6 /* CustomAsyncImage.swift in Sources */,
 				DC2944872C1F1B9F00D31860 /* Extensions+String.swift in Sources */,
 				DC2944892C1F1E7500D31860 /* Extensions+Text.swift in Sources */,
 				DC34AD7B2C4A8C0E00763E23 /* ConfirmationCodeModel.swift in Sources */,
@@ -643,6 +660,7 @@
 				DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */,
 				DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */,
 				DC449BE72C21D95700ACA837 /* SettingsView.swift in Sources */,
+				DC2457CB2C5F6C16004C9AE6 /* AsyncImageLoader.swift in Sources */,
 				DC34AD792C4A6FEF00763E23 /* AuthorizationConfirmation_HeaderView.swift in Sources */,
 				DC449BE32C21B5D700ACA837 /* ContactView_Model.swift in Sources */,
 				DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */,
@@ -658,11 +676,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC46E7372C2C257400B8500B /* ContactView_Model.swift in Sources */,
+				DC2457CE2C5F6C44004C9AE6 /* AsyncImageLoader.swift in Sources */,
 				DCE270FD2C2AEC8700FC0538 /* WBAppWidgetEntryView.swift in Sources */,
 				DC46E73B2C2C279F00B8500B /* Extensions+String.swift in Sources */,
 				DC46E73D2C2C27AB00B8500B /* Extensions+Text.swift in Sources */,
+				DC2457C52C5F67DE004C9AE6 /* ContactView_Model.swift in Sources */,
 				DCE270ED2C2AE99C00FC0538 /* WBAppWidget.swift in Sources */,
+				DC2457CD2C5F6C32004C9AE6 /* CustomAsyncImage.swift in Sources */,
 				DCE270EF2C2AE99C00FC0538 /* AppIntent.swift in Sources */,
 				DCE270E92C2AE99C00FC0538 /* WBAppWidgetBundle.swift in Sources */,
 			);

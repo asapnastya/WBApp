@@ -16,16 +16,17 @@ struct ContactDetailsView: View {
     var body: some View {
         
         VStack {
-            switch contact.profileImage {
-            case .some(let profileImage):
-                Image(profileImage)
-                    .resizable()                 
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 200, height: 200)
-                    .clipShape(RoundedRectangle(cornerRadius: 100))
-                    .padding(.top, 48)
-                    .padding(.horizontal, 87)
-                    .padding(.bottom, 7)
+            switch contact.profileImageURL {
+            case .some(let profileImageURL):
+                CustomAsyncImage(url: profileImageURL) {
+                    ProgressView()
+                        .frame(width: 200, height: 200)
+                }
+                .frame(width: 200, height: 200)
+                .clipShape(RoundedRectangle(cornerRadius: 100))
+                .padding(.top, 48)
+                .padding(.horizontal, 87)
+                .padding(.bottom, 7)
                 
             case .none:
                 Text(String.getInitials(from: contact.name))
@@ -96,12 +97,13 @@ struct SocialNetworkButton: View {
 #Preview {
     ContactDetailsView(
         contact: ContactView_Model(
-            id: 1, 
+            id: 1,
             name: "Иван Иванов",
             status: "Last seen yesterday",
-            profileImage: nil,
+            profileImageURL: nil,
             isOnline: false,
             hasStory: false,
-            phoneNumber: "+7 999 999-99-99")
+            phoneNumber: "+7 999 999-99-99"
+        )
     )
 }
