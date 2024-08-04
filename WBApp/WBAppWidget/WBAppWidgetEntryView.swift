@@ -14,11 +14,10 @@ struct WBAppWidgetEntryView : View {
     
     var body: some View {
         VStack {
-            switch entry.contact?.profileImage {
-            case .some(let profileImage):
-                Image(profileImage)
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
+            switch entry.contact?.profileImageURL {
+            case .some(let profileImageURL):
+                // TODO: - adapt widget for asynс image loading
+                CustomAsyncImage(url: profileImageURL) {}
                     .frame(width: 48, height: 48)
                     .clipShape(RoundedRectangle(cornerRadius: 16))
                     .padding(.leading, 4)

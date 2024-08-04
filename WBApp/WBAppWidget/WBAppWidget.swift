@@ -57,7 +57,7 @@ struct Provider: AppIntentTimelineProvider {
                 id: 1,
                 name: "Анастасия Иванова",
                 status: "Last seen yesterday",
-                profileImage: "img_anastasiia_ivanova",
+                profileImageURL: nil,
                 phoneNumber: "+7 999 999-99-99"
             )
         )
@@ -97,7 +97,7 @@ struct Provider: AppIntentTimelineProvider {
             id: 1,
             name: "Анастасия Иванова",
             status: "Last seen yesterday",
-            profileImage: "img_anastasiia_ivanova",
+            profileImageURL: nil,
             phoneNumber: "+7 999 999-99-99")
     )
 }

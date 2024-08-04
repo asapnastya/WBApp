@@ -28,12 +28,19 @@ extension String {
     static func getInitials(from fullName: String) -> String {
         let components = fullName.split(separator: " ")
         
-        guard components.count > 1 else { return "" }
-        
-        let firstNameInitial = components[0].first ?? Character("")
-        let lastNameInitial = components[1].first ?? Character("")
-        
-        return "\(firstNameInitial)\(lastNameInitial)"
+        switch components.count {
+        case 1:
+            return String(components[0].first ?? Character(""))
+            
+        case 2:
+            let firstNameInitial = components[0].first ?? Character("")
+            let lastNameInitial = components[1].first ?? Character("")
+            
+            return "\(firstNameInitial)\(lastNameInitial)"
+            
+        default:
+            return ""
+        }
     }
     
     func formatPhoneNumber() -> String {

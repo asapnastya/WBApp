@@ -24,14 +24,15 @@ struct ContactsView_Cell: View {
     var body: some View {
         HStack {
             ZStack {
-                switch contact.profileImage {
-                case .some(let profileImage):
-                    Image(profileImage)
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 48, height: 48)
-                        .clipShape(RoundedRectangle(cornerRadius: 16))
-                        .padding(.leading, 4)
+                switch contact.profileImageURL {
+                case .some(let profileImageURL):
+                    CustomAsyncImage(url: profileImageURL) {
+                        ProgressView()
+                            .frame(width: 48, height: 48)
+                    }
+                    .frame(width: 48, height: 48)
+                    .clipShape(RoundedRectangle(cornerRadius: 16))
+                    .padding(.leading, 4)
                     
                 case .none:
                     Text(String.getInitials(from: contact.name))
@@ -83,5 +84,14 @@ struct ContactsView_Cell: View {
 // MARK: - Preview
 
 #Preview {
-    ContactsView()
+    ContactsView_Cell(
+        contact: .init(
+            id: 1,
+            name: "Анастасия Иванова",
+            status: "Last seen yesterday",
+            isOnline: false,
+            hasStory: false,
+            phoneNumber: "+7 999 999-99-99"
+        )
+    )
 }
