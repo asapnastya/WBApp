@@ -270,6 +270,17 @@
         }
       }
     },
+    "unknownErrorTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неизвестная ошибка"
+          }
+        }
+      }
+    },
     "Выберите дату, затем выберите страну" : {
 
     },
@@ -289,6 +300,9 @@
 
     },
     "Открыть экран WBApp" : {
+
+    },
+    "Факты" : {
 
     },
     "Чат" : {

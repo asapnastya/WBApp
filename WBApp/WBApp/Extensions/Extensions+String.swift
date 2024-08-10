@@ -21,6 +21,10 @@ extension String {
         localized: LocalizationValue("agreementText")
     )
     
+    static let unknownErrorTitle = String(
+        localized: LocalizationValue("unknownErrorTitle")
+    )
+    
     static let appGroupIdentifier = "group.wbapp.com"
     
     static let firstContactKey = "firstContact"

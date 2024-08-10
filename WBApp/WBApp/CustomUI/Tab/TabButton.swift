@@ -40,6 +40,11 @@ struct TabButton: View {
             return selectedTab == .settings
             ? Image(.icSettingsActive)
             : Image(.icSettingsInactive)
+            
+        case .catFacts:
+            return selectedTab == .catFacts
+            ? Image(systemName: "cat.fill")
+            : Image(systemName: "cat")
         }
     }
 }

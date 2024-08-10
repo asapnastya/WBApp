@@ -13,12 +13,14 @@ enum Tabs: String, AppEnum  {
     static var caseDisplayRepresentations: [Tabs : DisplayRepresentation] =  [
         .contacts: .init(stringLiteral: "Контакты"),
         .chat: .init(stringLiteral: "Чат"),
-        .settings: .init(stringLiteral: "Настройки")
+        .settings: .init(stringLiteral: "Настройки"),
+        .catFacts: .init(stringLiteral: "Факты")
     ]
     
     case contacts
     case chat
     case settings
+    case catFacts
 }
 
 extension Tabs: Hashable {}
@@ -27,7 +29,7 @@ struct CustomTabView: View {
     
     @StateObject private var router: Router = Router.shared
     
-    private let tabs: [Tabs] = [.contacts, .chat, .settings]
+    private let tabs: [Tabs] = [.contacts, .chat, .settings, .catFacts]
     
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom), content: {
@@ -41,6 +43,9 @@ struct CustomTabView: View {
                 
                 SettingsView()
                     .tag(Tabs.settings)
+                
+                CatFactsView()
+                    .tag(Tabs.catFacts)
             }
             
             HStack(spacing: 0) {

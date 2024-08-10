@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0954AC2C67C75000B20361 /* generateMeowapi.sh in Resources */ = {isa = PBXBuildFile; fileRef = DC0954AB2C67C75000B20361 /* generateMeowapi.sh */; };
 		DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */; };
 		DC2942832C44086D00C621D3 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2942822C44086D00C621D3 /* AuthorizationView.swift */; };
 		DC2944662C1ED9B400D31860 /* SFProDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */; };
@@ -32,6 +33,9 @@
 		DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD872C189316004F1C85 /* OnboardingView.swift */; };
 		DC8FDD8A2C189317004F1C85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDD892C189317004F1C85 /* Images.xcassets */; };
 		DC8FDD8D2C189317004F1C85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDD8C2C189317004F1C85 /* Preview Assets.xcassets */; };
+		DC9125A72C651733006ECE06 /* MeowFactsAPI in Frameworks */ = {isa = PBXBuildFile; productRef = DC9125A62C651733006ECE06 /* MeowFactsAPI */; };
+		DC9125AB2C663C99006ECE06 /* CatFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9125AA2C663C99006ECE06 /* CatFactsView.swift */; };
+		DC9EB5692C67C8EA00B9B606 /* CatFactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9EB5682C67C8EA00B9B606 /* CatFactsModel.swift */; };
 		DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5F0E82C1F25A3001BE726 /* ContactsView.swift */; };
 		DCBC575A2C2432F0003265A0 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */; };
 		DCBC575C2C246A3A003265A0 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBC575B2C246A3A003265A0 /* TabButton.swift */; };
@@ -82,6 +86,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC0954AB2C67C75000B20361 /* generateMeowapi.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateMeowapi.sh; sourceTree = "<group>"; };
 		DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenScreenIntent.swift; sourceTree = "<group>"; };
 		DC2942822C44086D00C621D3 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
 		DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.otf"; sourceTree = "<group>"; };
@@ -110,6 +115,9 @@
 		DC8FDD872C189316004F1C85 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DC8FDD892C189317004F1C85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WBApp/Resources/Images/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		DC8FDD8C2C189317004F1C85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC9125A52C6516EF006ECE06 /* MeowFactsAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MeowFactsAPI; path = Modules/MeowFactsAPI; sourceTree = SOURCE_ROOT; };
+		DC9125AA2C663C99006ECE06 /* CatFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsView.swift; sourceTree = "<group>"; };
+		DC9EB5682C67C8EA00B9B606 /* CatFactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsModel.swift; sourceTree = "<group>"; };
 		DCA5F0E82C1F25A3001BE726 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		DCBC57592C2432F0003265A0 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		DCBC575B2C246A3A003265A0 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
@@ -144,6 +152,7 @@
 			files = (
 				DCE270FA2C2AE9CB00FC0538 /* WidgetKit.framework in Frameworks */,
 				DCFD249A2C540E8000FB4A51 /* UISystem in Frameworks */,
+				DC9125A72C651733006ECE06 /* MeowFactsAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +283,9 @@
 			isa = PBXGroup;
 			children = (
 				DCC30E7E2C3838CE00413738 /* 7-HW-StringInterpolation */,
+				DC9125A52C6516EF006ECE06 /* MeowFactsAPI */,
 				DCFD24982C540E0200FB4A51 /* UISystem */,
+				DC0954AB2C67C75000B20361 /* generateMeowapi.sh */,
 				DC46E73F2C2C322300B8500B /* WBApp.entitlements */,
 				DC8FDD852C189316004F1C85 /* WBApp.swift */,
 				DC1246172C29F3BB0039F7C7 /* Intents */,
@@ -295,6 +306,23 @@
 				DC8FDD8C2C189317004F1C85 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC9125AC2C663E36006ECE06 /* CatFacts */ = {
+			isa = PBXGroup;
+			children = (
+				DC9EB56A2C67C95000B9B606 /* Model */,
+				DC9125AA2C663C99006ECE06 /* CatFactsView.swift */,
+			);
+			path = CatFacts;
+			sourceTree = "<group>";
+		};
+		DC9EB56A2C67C95000B9B606 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC9EB5682C67C8EA00B9B606 /* CatFactsModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DCA5F0EA2C1F4A69001BE726 /* Resources */ = {
@@ -336,6 +364,7 @@
 				DCBC576D2C24CE60003265A0 /* SettingsView */,
 				DCBC576C2C24CE4E003265A0 /* ChatView */,
 				DCBC57622C24CA24003265A0 /* Contacts */,
+				DC9125AC2C663E36006ECE06 /* CatFacts */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -534,6 +563,7 @@
 			name = WBApp;
 			packageProductDependencies = (
 				DCFD24992C540E8000FB4A51 /* UISystem */,
+				DC9125A62C651733006ECE06 /* MeowFactsAPI */,
 			);
 			productName = WBApp;
 			productReference = DC8FDD822C189316004F1C85 /* WBApp.app */;
@@ -599,6 +629,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC2944792C1EDFB100D31860 /* SFProDisplay-Semibold.otf in Resources */,
+				DC0954AC2C67C75000B20361 /* generateMeowapi.sh in Resources */,
 				DC66638F2C1B2E3500350A45 /* Colors.xcassets in Resources */,
 				DCFD249C2C5418C700FB4A51 /* Localizable.xcstrings in Resources */,
 				DC8FDD8D2C189317004F1C85 /* Preview Assets.xcassets in Resources */,
@@ -637,6 +668,7 @@
 				DCFD24AB2C5503C700FB4A51 /* ConfirmationCodeTextBoxModifier.swift in Sources */,
 				DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */,
 				DCC30E822C38390E00413738 /* Extension+String.swift in Sources */,
+				DC9EB5692C67C8EA00B9B606 /* CatFactsModel.swift in Sources */,
 				DCDEF8552C2B42E7002E44B0 /* Router.swift in Sources */,
 				DC5A48722C46558300B7C136 /* PhoneNumberInputView.swift in Sources */,
 				DC5A48702C4654C300B7C136 /* AuthorizationHeaderView.swift in Sources */,
@@ -647,6 +679,7 @@
 				DC449BE32C21B5D700ACA837 /* ContactView_Model.swift in Sources */,
 				DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */,
 				DCFD24B32C55040600FB4A51 /* Extension+Binding.swift in Sources */,
+				DC9125AB2C663C99006ECE06 /* CatFactsView.swift in Sources */,
 				DCC6CF302C496B6A009BC26C /* AuthorizationConfirmationView.swift in Sources */,
 				DCFD24B12C5503F600FB4A51 /* OTPFieldView.swift in Sources */,
 				DC2942832C44086D00C621D3 /* AuthorizationView.swift in Sources */,
@@ -959,6 +992,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DC9125A62C651733006ECE06 /* MeowFactsAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MeowFactsAPI;
+		};
 		DCFD24992C540E8000FB4A51 /* UISystem */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UISystem;
