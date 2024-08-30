@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct WBApp: App {
     
-    @AppStorage("isOnboarding") var isOnboarding: Bool = true
+    @AppStorage("isOnboarding") var isOnboarding: Bool = false
     
     var body: some Scene {
         
