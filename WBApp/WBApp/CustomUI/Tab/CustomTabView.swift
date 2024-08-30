@@ -36,7 +36,7 @@ struct CustomTabView: View {
                 ContactsView()
                     .tag(Tabs.contacts)
                 
-                ChatView()
+                ChatExampleView(title: "j")
                     .tag(Tabs.chat)
                 
                 SettingsView()

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1246182C29F4720039F7C7 /* OpenScreenIntent.swift */; };
+		DC1CA7CF2C81C4430064A06E /* ChatExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE42C21D94E00ACA837 /* ChatExampleView.swift */; };
+		DC1CA7D12C81C55E0064A06E /* ExyteChat in Frameworks */ = {isa = PBXBuildFile; productRef = DC1CA7D02C81C55E0064A06E /* ExyteChat */; };
 		DC2942832C44086D00C621D3 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2942822C44086D00C621D3 /* AuthorizationView.swift */; };
 		DC2944662C1ED9B400D31860 /* SFProDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944542C1ED9B200D31860 /* SFProDisplay-Bold.otf */; };
 		DC2944722C1ED9B400D31860 /* SFProDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC2944602C1ED9B400D31860 /* SFProDisplay-Regular.otf */; };
@@ -18,7 +20,6 @@
 		DC34AD7B2C4A8C0E00763E23 /* ConfirmationCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC34AD7A2C4A8C0E00763E23 /* ConfirmationCodeModel.swift */; };
 		DC449BDF2C21B2B100ACA837 /* ContactsView_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BDE2C21B2B100ACA837 /* ContactsView_Cell.swift */; };
 		DC449BE32C21B5D700ACA837 /* ContactView_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */; };
-		DC449BE52C21D94E00ACA837 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE42C21D94E00ACA837 /* ChatView.swift */; };
 		DC449BE72C21D95700ACA837 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE62C21D95700ACA837 /* SettingsView.swift */; };
 		DC449BE92C21DBF400ACA837 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC449BE82C21DBF400ACA837 /* CustomTabView.swift */; };
 		DC46E7352C2C236700B8500B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DC46E7342C2C236600B8500B /* Localizable.xcstrings */; };
@@ -28,6 +29,16 @@
 		DC5A48702C4654C300B7C136 /* AuthorizationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A486F2C4654C300B7C136 /* AuthorizationHeaderView.swift */; };
 		DC5A48722C46558300B7C136 /* PhoneNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5A48712C46558300B7C136 /* PhoneNumberInputView.swift */; };
 		DC66638F2C1B2E3500350A45 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC66638E2C1B2E3500350A45 /* Colors.xcassets */; };
+		DC8799F62C81BB7200439700 /* ChatExampleView_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8799F52C81BB6000439700 /* ChatExampleView_Model.swift */; };
+		DC8799F82C81BBA200439700 /* ChatInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8799F72C81BBA200439700 /* ChatInteractorProtocol.swift */; };
+		DC8799FA2C81BBBF00439700 /* MockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8799F92C81BBBF00439700 /* MockMessage.swift */; };
+		DC8799FC2C81BBF600439700 /* MockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8799FB2C81BBF600439700 /* MockUser.swift */; };
+		DC8799FE2C81BC2E00439700 /* MockAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8799FD2C81BC2E00439700 /* MockAttachment.swift */; };
+		DC879A002C81BC5800439700 /* MockChatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8799FF2C81BC5800439700 /* MockChatInteractor.swift */; };
+		DC879A042C81BCA100439700 /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC879A032C81BCA100439700 /* Lorem.swift */; };
+		DC879A062C81BCB700439700 /* MockChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC879A052C81BCB700439700 /* MockChatData.swift */; };
+		DC879A092C81BDAA00439700 /* Extensions+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC879A082C81BDAA00439700 /* Extensions+Sequence.swift */; };
+		DC879A0B2C81BDCC00439700 /* Extensions+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC879A0A2C81BDCC00439700 /* Extensions+Date.swift */; };
 		DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD852C189316004F1C85 /* WBApp.swift */; };
 		DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8FDD872C189316004F1C85 /* OnboardingView.swift */; };
 		DC8FDD8A2C189317004F1C85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8FDD892C189317004F1C85 /* Images.xcassets */; };
@@ -93,7 +104,7 @@
 		DC34AD7A2C4A8C0E00763E23 /* ConfirmationCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationCodeModel.swift; sourceTree = "<group>"; };
 		DC449BDE2C21B2B100ACA837 /* ContactsView_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView_Cell.swift; sourceTree = "<group>"; };
 		DC449BE22C21B5D700ACA837 /* ContactView_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView_Model.swift; sourceTree = "<group>"; };
-		DC449BE42C21D94E00ACA837 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		DC449BE42C21D94E00ACA837 /* ChatExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatExampleView.swift; sourceTree = "<group>"; };
 		DC449BE62C21D95700ACA837 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DC449BE82C21DBF400ACA837 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		DC46E7342C2C236600B8500B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -105,6 +116,16 @@
 		DC5A48712C46558300B7C136 /* PhoneNumberInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberInputView.swift; sourceTree = "<group>"; };
 		DC65168E2C1B230100D49726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC66638E2C1B2E3500350A45 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DC8799F52C81BB6000439700 /* ChatExampleView_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatExampleView_Model.swift; sourceTree = "<group>"; };
+		DC8799F72C81BBA200439700 /* ChatInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInteractorProtocol.swift; sourceTree = "<group>"; };
+		DC8799F92C81BBBF00439700 /* MockMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMessage.swift; sourceTree = "<group>"; };
+		DC8799FB2C81BBF600439700 /* MockUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUser.swift; sourceTree = "<group>"; };
+		DC8799FD2C81BC2E00439700 /* MockAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAttachment.swift; sourceTree = "<group>"; };
+		DC8799FF2C81BC5800439700 /* MockChatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChatInteractor.swift; sourceTree = "<group>"; };
+		DC879A032C81BCA100439700 /* Lorem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lorem.swift; sourceTree = "<group>"; };
+		DC879A052C81BCB700439700 /* MockChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChatData.swift; sourceTree = "<group>"; };
+		DC879A082C81BDAA00439700 /* Extensions+Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Sequence.swift"; sourceTree = "<group>"; };
+		DC879A0A2C81BDCC00439700 /* Extensions+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Date.swift"; sourceTree = "<group>"; };
 		DC8FDD822C189316004F1C85 /* WBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8FDD852C189316004F1C85 /* WBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBApp.swift; sourceTree = "<group>"; };
 		DC8FDD872C189316004F1C85 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -144,6 +165,7 @@
 			files = (
 				DCE270FA2C2AE9CB00FC0538 /* WidgetKit.framework in Frameworks */,
 				DCFD249A2C540E8000FB4A51 /* UISystem in Frameworks */,
+				DC1CA7D12C81C55E0064A06E /* ExyteChat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +208,23 @@
 				DCBC57642C24CAB9003265A0 /* Tab */,
 			);
 			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		DC1CA7D42C81C8E10064A06E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC879A0A2C81BDCC00439700 /* Extensions+Date.swift */,
+				DC879A082C81BDAA00439700 /* Extensions+Sequence.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC1CA7D52C81C9910064A06E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC8799F52C81BB6000439700 /* ChatExampleView_Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DC29447E2C1EF14F00D31860 /* Colors */ = {
@@ -246,6 +285,34 @@
 				DC46E7342C2C236600B8500B /* Localizable.xcstrings */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		DC879A012C81BC6C00439700 /* ChatInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				DC8799F72C81BBA200439700 /* ChatInteractorProtocol.swift */,
+				DC8799FF2C81BC5800439700 /* MockChatInteractor.swift */,
+			);
+			path = ChatInteractor;
+			sourceTree = "<group>";
+		};
+		DC879A022C81BC8800439700 /* DataGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				DC879A032C81BCA100439700 /* Lorem.swift */,
+				DC879A052C81BCB700439700 /* MockChatData.swift */,
+			);
+			path = DataGeneration;
+			sourceTree = "<group>";
+		};
+		DC879A072C81BD2D00439700 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				DC8799F92C81BBBF00439700 /* MockMessage.swift */,
+				DC8799FD2C81BC2E00439700 /* MockAttachment.swift */,
+				DC8799FB2C81BBF600439700 /* MockUser.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		DC8FDD792C189316004F1C85 = {
@@ -334,7 +401,7 @@
 				DCBC576F2C24CE76003265A0 /* ContactDetailsView */,
 				DCBC576E2C24CE6A003265A0 /* OnboardingView */,
 				DCBC576D2C24CE60003265A0 /* SettingsView */,
-				DCBC576C2C24CE4E003265A0 /* ChatView */,
+				DCBC576C2C24CE4E003265A0 /* Chat */,
 				DCBC57622C24CA24003265A0 /* Contacts */,
 			);
 			path = Screens;
@@ -375,12 +442,17 @@
 			path = String;
 			sourceTree = "<group>";
 		};
-		DCBC576C2C24CE4E003265A0 /* ChatView */ = {
+		DCBC576C2C24CE4E003265A0 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				DC449BE42C21D94E00ACA837 /* ChatView.swift */,
+				DC1CA7D52C81C9910064A06E /* Model */,
+				DC1CA7D42C81C8E10064A06E /* Extensions */,
+				DC879A072C81BD2D00439700 /* Mocks */,
+				DC879A012C81BC6C00439700 /* ChatInteractor */,
+				DC879A022C81BC8800439700 /* DataGeneration */,
+				DC449BE42C21D94E00ACA837 /* ChatExampleView.swift */,
 			);
-			path = ChatView;
+			path = Chat;
 			sourceTree = "<group>";
 		};
 		DCBC576D2C24CE60003265A0 /* SettingsView */ = {
@@ -534,6 +606,7 @@
 			name = WBApp;
 			packageProductDependencies = (
 				DCFD24992C540E8000FB4A51 /* UISystem */,
+				DC1CA7D02C81C55E0064A06E /* ExyteChat */,
 			);
 			productName = WBApp;
 			productReference = DC8FDD822C189316004F1C85 /* WBApp.app */;
@@ -583,6 +656,9 @@
 				ru,
 			);
 			mainGroup = DC8FDD792C189316004F1C85;
+			packageReferences = (
+				DC9F50812C6A6FA900ABFCE7 /* XCRemoteSwiftPackageReference "Chat" */,
+			);
 			productRefGroup = DC8FDD832C189316004F1C85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -629,27 +705,37 @@
 				DC2944872C1F1B9F00D31860 /* Extensions+String.swift in Sources */,
 				DC2944892C1F1E7500D31860 /* Extensions+Text.swift in Sources */,
 				DC34AD7B2C4A8C0E00763E23 /* ConfirmationCodeModel.swift in Sources */,
+				DC879A042C81BCA100439700 /* Lorem.swift in Sources */,
 				DC449BE92C21DBF400ACA837 /* CustomTabView.swift in Sources */,
 				DC449BDF2C21B2B100ACA837 /* ContactsView_Cell.swift in Sources */,
 				DCDF787A2C209C88002C1205 /* ContactDetailsView.swift in Sources */,
-				DC449BE52C21D94E00ACA837 /* ChatView.swift in Sources */,
+				DC879A062C81BCB700439700 /* MockChatData.swift in Sources */,
 				DCBE2E5C2C36C5E100ACBDC7 /* StringIntepolationView.swift in Sources */,
 				DCFD24AB2C5503C700FB4A51 /* ConfirmationCodeTextBoxModifier.swift in Sources */,
+				DC8799FC2C81BBF600439700 /* MockUser.swift in Sources */,
+				DC1CA7CF2C81C4430064A06E /* ChatExampleView.swift in Sources */,
 				DC1246192C29F4720039F7C7 /* OpenScreenIntent.swift in Sources */,
 				DCC30E822C38390E00413738 /* Extension+String.swift in Sources */,
 				DCDEF8552C2B42E7002E44B0 /* Router.swift in Sources */,
+				DC8799F62C81BB7200439700 /* ChatExampleView_Model.swift in Sources */,
 				DC5A48722C46558300B7C136 /* PhoneNumberInputView.swift in Sources */,
+				DC879A092C81BDAA00439700 /* Extensions+Sequence.swift in Sources */,
 				DC5A48702C4654C300B7C136 /* AuthorizationHeaderView.swift in Sources */,
 				DCA5F0E92C1F25A3001BE726 /* ContactsView.swift in Sources */,
 				DC8FDD882C189316004F1C85 /* OnboardingView.swift in Sources */,
 				DC449BE72C21D95700ACA837 /* SettingsView.swift in Sources */,
 				DC34AD792C4A6FEF00763E23 /* AuthorizationConfirmation_HeaderView.swift in Sources */,
 				DC449BE32C21B5D700ACA837 /* ContactView_Model.swift in Sources */,
+				DC8799FE2C81BC2E00439700 /* MockAttachment.swift in Sources */,
 				DC8FDD862C189316004F1C85 /* WBApp.swift in Sources */,
+				DC879A002C81BC5800439700 /* MockChatInteractor.swift in Sources */,
+				DC8799F82C81BBA200439700 /* ChatInteractorProtocol.swift in Sources */,
+				DC879A0B2C81BDCC00439700 /* Extensions+Date.swift in Sources */,
 				DCFD24B32C55040600FB4A51 /* Extension+Binding.swift in Sources */,
 				DCC6CF302C496B6A009BC26C /* AuthorizationConfirmationView.swift in Sources */,
 				DCFD24B12C5503F600FB4A51 /* OTPFieldView.swift in Sources */,
 				DC2942832C44086D00C621D3 /* AuthorizationView.swift in Sources */,
+				DC8799FA2C81BBBF00439700 /* MockMessage.swift in Sources */,
 				DCBC575C2C246A3A003265A0 /* TabButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -958,7 +1044,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		DC9F50812C6A6FA900ABFCE7 /* XCRemoteSwiftPackageReference "Chat" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/Chat";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		DC1CA7D02C81C55E0064A06E /* ExyteChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC9F50812C6A6FA900ABFCE7 /* XCRemoteSwiftPackageReference "Chat" */;
+			productName = ExyteChat;
+		};
 		DCFD24992C540E8000FB4A51 /* UISystem */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UISystem;
