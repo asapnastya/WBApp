@@ -583,6 +583,9 @@
 				ru,
 			);
 			mainGroup = DC8FDD792C189316004F1C85;
+			packageReferences = (
+				DC9F50812C6A6FA900ABFCE7 /* XCRemoteSwiftPackageReference "Chat" */,
+			);
 			productRefGroup = DC8FDD832C189316004F1C85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -957,6 +960,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC9F50812C6A6FA900ABFCE7 /* XCRemoteSwiftPackageReference "Chat" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/Chat";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		DCFD24992C540E8000FB4A51 /* UISystem */ = {
